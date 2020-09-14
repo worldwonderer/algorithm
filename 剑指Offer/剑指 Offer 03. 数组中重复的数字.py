@@ -14,7 +14,7 @@ class Solution:
                 m = nums[i]
                 if m == i:
                     break
-                if m != i and nums[m] == m:
+                if nums[m] == m:
                     return m
                 else:
                     nums[m], nums[i] = nums[i], nums[m]
