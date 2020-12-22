@@ -9,7 +9,7 @@ def merge_sort(a):
     """
     N = len(a)
     aux = [0] * N
-    sort(aux, a, 0, N-1)
+    sort(aux, a, 0, N - 1)
     return a
 
 
@@ -24,10 +24,10 @@ def sort(aux, a, lo, hi):
 
 def merge(aux, a, lo, mid, hi):
     i = lo
-    j = mid+1
-    for k in range(lo, hi+1):
+    j = mid + 1
+    for k in range(lo, hi + 1):
         aux[k] = a[k]
-    for k in range(lo, hi+1):
+    for k in range(lo, hi + 1):
         if i > mid:
             a[k] = aux[j]
             j += 1
@@ -42,6 +42,19 @@ def merge(aux, a, lo, mid, hi):
             i += 1
 
 
+def merge_sort2(a):
+    N = len(a)
+    aux = [0] * N
+    sz = 1
+    while sz < N:
+        lo = 0
+        while lo < N - sz:
+            merge(aux, a, lo, lo + sz - 1, min(lo + sz + sz - 1, N - 1))
+            lo += 2 * sz
+        sz *= 2
+    return a
+
+
 if __name__ == '__main__':
     a = [3, 4, 1, 2, 5]
-    assert merge_sort(a) == [1, 2, 3, 4, 5]
+    assert merge_sort2(a) == [1, 2, 3, 4, 5]
