@@ -12,4 +12,5 @@ class Solution:
             else:
                 memo[(i, j)] = max(dp(i - 1, j), dp(i, j - 1))
             return memo[(i, j)]
+
         return dp(len(text1) - 1, len(text2) - 1)

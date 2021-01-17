@@ -12,8 +12,9 @@ class Solution:
                 return memo[(i, j)]
 
             if s[i] == s[j]:
-                memo[(i, j)] = dp(i+1, j-1) + 2
+                memo[(i, j)] = dp(i + 1, j - 1) + 2
             else:
-                memo[(i, j)] = max(dp(i+1, j), dp(i, j-1))
+                memo[(i, j)] = max(dp(i + 1, j), dp(i, j - 1))
             return memo[(i, j)]
-        return dp(0, l-1)
+
+        return dp(0, l - 1)
