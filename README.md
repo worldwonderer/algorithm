@@ -4,27 +4,31 @@
 <p align="center"><img width="300" src="https://raw.githubusercontent.com/KivenCkl/LeetCode_Helper/master/imgs/leetcode-logo.png"></p>
 <p align="center">
     <img src="https://img.shields.io/badge/用户-worldwonderer-blue.svg?" alt="">
-    <img src="https://img.shields.io/badge/已解决-103/1951-blue.svg?" alt="">
-    <img src="https://img.shields.io/badge/简单-59-green.svg?" alt="">
-    <img src="https://img.shields.io/badge/中等-34-orange.svg?" alt="">
+    <img src="https://img.shields.io/badge/已解决-107/1951-blue.svg?" alt="">
+    <img src="https://img.shields.io/badge/简单-62-green.svg?" alt="">
+    <img src="https://img.shields.io/badge/中等-35-orange.svg?" alt="">
     <img src="https://img.shields.io/badge/困难-10-red.svg?" alt="">
 </p>
 <h1 align="center">LeetCode 的解答</h1>
 
 <p align="center">
     <br>
-    <b>最近一次更新: 2021-01-29 22:11:55</b>
+    <b>最近一次更新: 2021-01-29 23:45:14</b>
     <br>
 </p>
 
 | # | 题名 | 解答 | 通过率 | 难度 | 标签 |
 |:--:|:-----|:---------:|:----:|:----:|:----:|
 |剑指 Offer 55 - II|[平衡二叉树](Problemset/ping-heng-er-cha-shu-lcof/README.md)|[Python3](Problemset/ping-heng-er-cha-shu-lcof/ping-heng-er-cha-shu-lcof.py)|58.0%|简单|[树](https://leetcode-cn.com/tag/tree)<br>[深度优先搜索](https://leetcode-cn.com/tag/depth-first-search)|
+|剑指 Offer 59 - II|[队列的最大值](Problemset/dui-lie-de-zui-da-zhi-lcof/README.md)|[Python3](Problemset/dui-lie-de-zui-da-zhi-lcof/dui-lie-de-zui-da-zhi-lcof.py)|47.4%|中等|[栈](https://leetcode-cn.com/tag/stack)<br>[None](https://leetcode-cn.com/tag/sliding-window)|
+|剑指 Offer 59 - I|[滑动窗口的最大值](Problemset/hua-dong-chuang-kou-de-zui-da-zhi-lcof/README.md)|[Python3](Problemset/hua-dong-chuang-kou-de-zui-da-zhi-lcof/hua-dong-chuang-kou-de-zui-da-zhi-lcof.py)|44.2%|简单|[队列](https://leetcode-cn.com/tag/queue)<br>[None](https://leetcode-cn.com/tag/sliding-window)|
 |剑指 Offer 49|[丑数](Problemset/chou-shu-lcof/README.md)|[Python3](Problemset/chou-shu-lcof/chou-shu-lcof.py)|64.7%|中等|[数学](https://leetcode-cn.com/tag/math)|
 |剑指 Offer 54|[二叉搜索树的第k大节点](Problemset/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/README.md)|[Python3](Problemset/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.py)|74.3%|简单|[树](https://leetcode-cn.com/tag/tree)|
 |剑指 Offer 48|[最长不含重复字符的子字符串](Problemset/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof/README.md)|[Python3](Problemset/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof.py)|45.9%|中等|[哈希表](https://leetcode-cn.com/tag/hash-table)<br>[双指针](https://leetcode-cn.com/tag/two-pointers)<br>[None](https://leetcode-cn.com/tag/sliding-window)|
 |剑指 Offer 53 - II|[0～n-1中缺失的数字](Problemset/que-shi-de-shu-zi-lcof/README.md)|[Python3](Problemset/que-shi-de-shu-zi-lcof/que-shi-de-shu-zi-lcof.py)|44.1%|简单|[数组](https://leetcode-cn.com/tag/array)<br>[二分查找](https://leetcode-cn.com/tag/binary-search)|
+|剑指 Offer 58 - II|[左旋转字符串](Problemset/zuo-xuan-zhuan-zi-fu-chuan-lcof/README.md)|[Python3](Problemset/zuo-xuan-zhuan-zi-fu-chuan-lcof/zuo-xuan-zhuan-zi-fu-chuan-lcof.py)|85.3%|简单|[字符串](https://leetcode-cn.com/tag/string)|
 |剑指 Offer 53 - I|[在排序数组中查找数字 I](Problemset/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/README.md)|[Python3](Problemset/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.py)|53.0%|简单|[数组](https://leetcode-cn.com/tag/array)<br>[二分查找](https://leetcode-cn.com/tag/binary-search)|
+|剑指 Offer 58 - I|[翻转单词顺序](Problemset/fan-zhuan-dan-ci-shun-xu-lcof/README.md)|[Python3](Problemset/fan-zhuan-dan-ci-shun-xu-lcof/fan-zhuan-dan-ci-shun-xu-lcof.py)|43.3%|简单|[字符串](https://leetcode-cn.com/tag/string)|
 |剑指 Offer 47|[礼物的最大价值](Problemset/li-wu-de-zui-da-jie-zhi-lcof/README.md)|[Python3](Problemset/li-wu-de-zui-da-jie-zhi-lcof/li-wu-de-zui-da-jie-zhi-lcof.py)|68.5%|中等|[动态规划](https://leetcode-cn.com/tag/dynamic-programming)|
 |剑指 Offer 52|[两个链表的第一个公共节点](Problemset/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/README.md)|[Python3](Problemset/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof.py)|63.3%|简单|[链表](https://leetcode-cn.com/tag/linked-list)|
 |剑指 Offer 46|[把数字翻译成字符串](Problemset/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/README.md)|[Python3](Problemset/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.py)|54.0%|中等||
@@ -45,7 +49,7 @@
 |剑指 Offer 39|[数组中出现次数超过一半的数字](Problemset/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof/README.md)|[Python3](Problemset/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof.py)|68.2%|简单|[位运算](https://leetcode-cn.com/tag/bit-manipulation)<br>[分治算法](https://leetcode-cn.com/tag/divide-and-conquer)|
 |剑指 Offer 43|[1～n 整数中 1 出现的次数](Problemset/1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof/README.md)|[Python3](Problemset/1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof/1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof.py)|46.5%|困难|[数学](https://leetcode-cn.com/tag/math)|
 |剑指 Offer 38|[字符串的排列](Problemset/zi-fu-chuan-de-pai-lie-lcof/README.md)|[Python3](Problemset/zi-fu-chuan-de-pai-lie-lcof/zi-fu-chuan-de-pai-lie-lcof.py)|55.2%|中等|[回溯算法](https://leetcode-cn.com/tag/backtracking)|
-|剑指 Offer 37|[序列化二叉树](Problemset/xu-lie-hua-er-cha-shu-lcof/README.md)|[Python3](Problemset/xu-lie-hua-er-cha-shu-lcof/xu-lie-hua-er-cha-shu-lcof.py)|52.5%|困难|[树](https://leetcode-cn.com/tag/tree)<br>[设计](https://leetcode-cn.com/tag/design)|
+|剑指 Offer 37|[序列化二叉树](Problemset/xu-lie-hua-er-cha-shu-lcof/README.md)|[Python3](Problemset/xu-lie-hua-er-cha-shu-lcof/xu-lie-hua-er-cha-shu-lcof.py)|52.6%|困难|[树](https://leetcode-cn.com/tag/tree)<br>[设计](https://leetcode-cn.com/tag/design)|
 |剑指 Offer 31|[栈的压入、弹出序列](Problemset/zhan-de-ya-ru-dan-chu-xu-lie-lcof/README.md)|[Python3](Problemset/zhan-de-ya-ru-dan-chu-xu-lie-lcof/zhan-de-ya-ru-dan-chu-xu-lie-lcof.py)|60.0%|中等||
 |剑指 Offer 36|[二叉搜索树与双向链表](Problemset/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof/README.md)|[Python3](Problemset/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof.py)|64.8%|中等|[分治算法](https://leetcode-cn.com/tag/divide-and-conquer)|
 |剑指 Offer 42|[连续子数组的最大和](Problemset/lian-xu-zi-shu-zu-de-zui-da-he-lcof/README.md)|[Python3](Problemset/lian-xu-zi-shu-zu-de-zui-da-he-lcof/lian-xu-zi-shu-zu-de-zui-da-he-lcof.py)|59.9%|简单|[分治算法](https://leetcode-cn.com/tag/divide-and-conquer)<br>[动态规划](https://leetcode-cn.com/tag/dynamic-programming)|
@@ -64,7 +68,7 @@
 |剑指 Offer 21|[调整数组顺序使奇数位于偶数前面](Problemset/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/README.md)|[Python3](Problemset/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.py)|64.3%|简单||
 |剑指 Offer 20|[表示数值的字符串](Problemset/biao-shi-shu-zhi-de-zi-fu-chuan-lcof/README.md)|[Python3](Problemset/biao-shi-shu-zhi-de-zi-fu-chuan-lcof/biao-shi-shu-zhi-de-zi-fu-chuan-lcof.py)|23.1%|中等|[数学](https://leetcode-cn.com/tag/math)|
 |剑指 Offer 28|[对称的二叉树](Problemset/dui-cheng-de-er-cha-shu-lcof/README.md)|[Python3](Problemset/dui-cheng-de-er-cha-shu-lcof/dui-cheng-de-er-cha-shu-lcof.py)|57.9%|简单|[树](https://leetcode-cn.com/tag/tree)|
-|剑指 Offer 27|[二叉树的镜像](Problemset/er-cha-shu-de-jing-xiang-lcof/README.md)|[Python3](Problemset/er-cha-shu-de-jing-xiang-lcof/er-cha-shu-de-jing-xiang-lcof.py)|78.8%|简单|[树](https://leetcode-cn.com/tag/tree)|
+|剑指 Offer 27|[二叉树的镜像](Problemset/er-cha-shu-de-jing-xiang-lcof/README.md)|[Python3](Problemset/er-cha-shu-de-jing-xiang-lcof/er-cha-shu-de-jing-xiang-lcof.py)|78.9%|简单|[树](https://leetcode-cn.com/tag/tree)|
 |剑指 Offer 26|[树的子结构](Problemset/shu-de-zi-jie-gou-lcof/README.md)|[Python3](Problemset/shu-de-zi-jie-gou-lcof/shu-de-zi-jie-gou-lcof.py)|45.9%|中等|[树](https://leetcode-cn.com/tag/tree)|
 |剑指 Offer 25|[合并两个排序的链表](Problemset/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/README.md)|[Python3](Problemset/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/he-bing-liang-ge-pai-xu-de-lian-biao-lcof.py)|73.1%|简单|[分治算法](https://leetcode-cn.com/tag/divide-and-conquer)|
 |剑指 Offer 14- II|[剪绳子 II](Problemset/jian-sheng-zi-ii-lcof/README.md)|[Python3](Problemset/jian-sheng-zi-ii-lcof/jian-sheng-zi-ii-lcof.py)|30.2%|中等|[数学](https://leetcode-cn.com/tag/math)<br>[动态规划](https://leetcode-cn.com/tag/dynamic-programming)|
