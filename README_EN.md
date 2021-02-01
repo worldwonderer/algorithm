@@ -4,16 +4,16 @@
 <p align="center"><img width="300" src="https://raw.githubusercontent.com/KivenCkl/LeetCode_Helper/master/imgs/leetcode-logo.png"></p>
 <p align="center">
     <img src="https://img.shields.io/badge/User-worldwonderer-blue.svg?" alt="">
-    <img src="https://img.shields.io/badge/Solved-111/1956-blue.svg?" alt="">
-    <img src="https://img.shields.io/badge/Easy-64-green.svg?" alt="">
-    <img src="https://img.shields.io/badge/Medium-37-orange.svg?" alt="">
-    <img src="https://img.shields.io/badge/Hard-10-red.svg?" alt="">
+    <img src="https://img.shields.io/badge/Solved-120/1956-blue.svg?" alt="">
+    <img src="https://img.shields.io/badge/Easy-68-green.svg?" alt="">
+    <img src="https://img.shields.io/badge/Medium-40-orange.svg?" alt="">
+    <img src="https://img.shields.io/badge/Hard-12-red.svg?" alt="">
 </p>
 <h1 align="center">My LeetCode Solutions</h1>
 
 <p align="center">
     <br>
-    <b>Last updated: 2021-02-01 21:55:45</b>
+    <b>Last updated: 2021-02-01 23:30:00</b>
     <br>
 </p>
 
@@ -93,10 +93,19 @@
 |887|[Super Egg Drop](Problemset/super-egg-drop/README_EN.md)|[Python3](Problemset/super-egg-drop/super-egg-drop.py)|28.9%|hard|[Math](https://leetcode-cn.com/tag/math)<br>[Binary Search](https://leetcode-cn.com/tag/binary-search)<br>[Dynamic Programming](https://leetcode-cn.com/tag/dynamic-programming)|
 |877|[Stone Game](Problemset/stone-game/README_EN.md)|[Python3](Problemset/stone-game/stone-game.py)|72.2%|medium|[Minimax](https://leetcode-cn.com/tag/minimax)<br>[Math](https://leetcode-cn.com/tag/math)<br>[Dynamic Programming](https://leetcode-cn.com/tag/dynamic-programming)|
 |752|[Open the Lock](Problemset/open-the-lock/README_EN.md)|[Python3](Problemset/open-the-lock/open-the-lock.py)|49.3%|medium|[Breadth-first Search](https://leetcode-cn.com/tag/breadth-first-search)|
+|714|[Best Time to Buy and Sell Stock with Transaction Fee](Problemset/best-time-to-buy-and-sell-stock-with-transaction-fee/README_EN.md)|[Python3](Problemset/best-time-to-buy-and-sell-stock-with-transaction-fee/best-time-to-buy-and-sell-stock-with-transaction-fee.py)|69.8%|medium|[Greedy](https://leetcode-cn.com/tag/greedy)<br>[Array](https://leetcode-cn.com/tag/array)<br>[Dynamic Programming](https://leetcode-cn.com/tag/dynamic-programming)|
 |516|[Longest Palindromic Subsequence](Problemset/longest-palindromic-subsequence/README_EN.md)|[Python3](Problemset/longest-palindromic-subsequence/longest-palindromic-subsequence.py)|59.4%|medium|[Dynamic Programming](https://leetcode-cn.com/tag/dynamic-programming)|
 |322|[Coin Change](Problemset/coin-change/README_EN.md)|[Python3](Problemset/coin-change/coin-change.py)|42.4%|medium|[Dynamic Programming](https://leetcode-cn.com/tag/dynamic-programming)|
+|309|[Best Time to Buy and Sell Stock with Cooldown](Problemset/best-time-to-buy-and-sell-stock-with-cooldown/README_EN.md)|[Python3](Problemset/best-time-to-buy-and-sell-stock-with-cooldown/best-time-to-buy-and-sell-stock-with-cooldown.py)|57.5%|medium|[Dynamic Programming](https://leetcode-cn.com/tag/dynamic-programming)|
 |300|[Longest Increasing Subsequence](Problemset/longest-increasing-subsequence/README_EN.md)|[Python3](Problemset/longest-increasing-subsequence/longest-increasing-subsequence.py)|46.9%|medium|[Binary Search](https://leetcode-cn.com/tag/binary-search)<br>[Dynamic Programming](https://leetcode-cn.com/tag/dynamic-programming)|
 |206|[Reverse Linked List](Problemset/reverse-linked-list/README_EN.md)|[Python3](Problemset/reverse-linked-list/reverse-linked-list.py)|71.3%|easy|[Linked List](https://leetcode-cn.com/tag/linked-list)|
+|195|[Tenth Line](Problemset/tenth-line/README_EN.md)|[Shell](Problemset/tenth-line/tenth-line.sh)|43.2%|easy||
+|193|[Valid Phone Numbers](Problemset/valid-phone-numbers/README_EN.md)|[Shell](Problemset/valid-phone-numbers/valid-phone-numbers.sh)|31.2%|easy||
+|192|[Word Frequency](Problemset/word-frequency/README_EN.md)|[Shell](Problemset/word-frequency/word-frequency.sh)|34.9%|medium||
+|188|[Best Time to Buy and Sell Stock IV](Problemset/best-time-to-buy-and-sell-stock-iv/README_EN.md)|[Python3](Problemset/best-time-to-buy-and-sell-stock-iv/best-time-to-buy-and-sell-stock-iv.py)|36.0%|hard|[Dynamic Programming](https://leetcode-cn.com/tag/dynamic-programming)|
+|123|[Best Time to Buy and Sell Stock III](Problemset/best-time-to-buy-and-sell-stock-iii/README_EN.md)|[Python3](Problemset/best-time-to-buy-and-sell-stock-iii/best-time-to-buy-and-sell-stock-iii.py)|50.9%|hard|[Array](https://leetcode-cn.com/tag/array)<br>[Dynamic Programming](https://leetcode-cn.com/tag/dynamic-programming)|
+|122|[Best Time to Buy and Sell Stock II](Problemset/best-time-to-buy-and-sell-stock-ii/README_EN.md)|[Python3](Problemset/best-time-to-buy-and-sell-stock-ii/best-time-to-buy-and-sell-stock-ii.py)|66.3%|easy|[Greedy](https://leetcode-cn.com/tag/greedy)<br>[Array](https://leetcode-cn.com/tag/array)|
+|121|[Best Time to Buy and Sell Stock](Problemset/best-time-to-buy-and-sell-stock/README_EN.md)|[Python3](Problemset/best-time-to-buy-and-sell-stock/best-time-to-buy-and-sell-stock.py)|55.8%|easy|[Array](https://leetcode-cn.com/tag/array)<br>[Dynamic Programming](https://leetcode-cn.com/tag/dynamic-programming)|
 |111|[Minimum Depth of Binary Tree](Problemset/minimum-depth-of-binary-tree/README_EN.md)|[Python3](Problemset/minimum-depth-of-binary-tree/minimum-depth-of-binary-tree.py)|46.4%|easy|[Tree](https://leetcode-cn.com/tag/tree)<br>[Depth-first Search](https://leetcode-cn.com/tag/depth-first-search)<br>[Breadth-first Search](https://leetcode-cn.com/tag/breadth-first-search)|
 |108|[Convert Sorted Array to Binary Search Tree](Problemset/convert-sorted-array-to-binary-search-tree/README_EN.md)|[Python3](Problemset/convert-sorted-array-to-binary-search-tree/convert-sorted-array-to-binary-search-tree.py)|74.7%|easy|[Tree](https://leetcode-cn.com/tag/tree)<br>[Depth-first Search](https://leetcode-cn.com/tag/depth-first-search)|
 |107|[Binary Tree Level Order Traversal II](Problemset/binary-tree-level-order-traversal-ii/README_EN.md)|[Python3](Problemset/binary-tree-level-order-traversal-ii/binary-tree-level-order-traversal-ii.py)|68.0%|easy|[Tree](https://leetcode-cn.com/tag/tree)<br>[Breadth-first Search](https://leetcode-cn.com/tag/breadth-first-search)|

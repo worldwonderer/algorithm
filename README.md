@@ -4,16 +4,16 @@
 <p align="center"><img width="300" src="https://raw.githubusercontent.com/KivenCkl/LeetCode_Helper/master/imgs/leetcode-logo.png"></p>
 <p align="center">
     <img src="https://img.shields.io/badge/用户-worldwonderer-blue.svg?" alt="">
-    <img src="https://img.shields.io/badge/已解决-111/1956-blue.svg?" alt="">
-    <img src="https://img.shields.io/badge/简单-64-green.svg?" alt="">
-    <img src="https://img.shields.io/badge/中等-37-orange.svg?" alt="">
-    <img src="https://img.shields.io/badge/困难-10-red.svg?" alt="">
+    <img src="https://img.shields.io/badge/已解决-120/1956-blue.svg?" alt="">
+    <img src="https://img.shields.io/badge/简单-68-green.svg?" alt="">
+    <img src="https://img.shields.io/badge/中等-40-orange.svg?" alt="">
+    <img src="https://img.shields.io/badge/困难-12-red.svg?" alt="">
 </p>
 <h1 align="center">LeetCode 的解答</h1>
 
 <p align="center">
     <br>
-    <b>最近一次更新: 2021-02-01 21:55:45</b>
+    <b>最近一次更新: 2021-02-01 23:30:00</b>
     <br>
 </p>
 
@@ -93,10 +93,19 @@
 |887|[鸡蛋掉落](Problemset/super-egg-drop/README.md)|[Python3](Problemset/super-egg-drop/super-egg-drop.py)|28.9%|困难|[数学](https://leetcode-cn.com/tag/math)<br>[二分查找](https://leetcode-cn.com/tag/binary-search)<br>[动态规划](https://leetcode-cn.com/tag/dynamic-programming)|
 |877|[石子游戏](Problemset/stone-game/README.md)|[Python3](Problemset/stone-game/stone-game.py)|72.2%|中等|[极小化极大](https://leetcode-cn.com/tag/minimax)<br>[数学](https://leetcode-cn.com/tag/math)<br>[动态规划](https://leetcode-cn.com/tag/dynamic-programming)|
 |752|[打开转盘锁](Problemset/open-the-lock/README.md)|[Python3](Problemset/open-the-lock/open-the-lock.py)|49.3%|中等|[广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search)|
+|714|[买卖股票的最佳时机含手续费](Problemset/best-time-to-buy-and-sell-stock-with-transaction-fee/README.md)|[Python3](Problemset/best-time-to-buy-and-sell-stock-with-transaction-fee/best-time-to-buy-and-sell-stock-with-transaction-fee.py)|69.8%|中等|[贪心算法](https://leetcode-cn.com/tag/greedy)<br>[数组](https://leetcode-cn.com/tag/array)<br>[动态规划](https://leetcode-cn.com/tag/dynamic-programming)|
 |516|[最长回文子序列](Problemset/longest-palindromic-subsequence/README.md)|[Python3](Problemset/longest-palindromic-subsequence/longest-palindromic-subsequence.py)|59.4%|中等|[动态规划](https://leetcode-cn.com/tag/dynamic-programming)|
 |322|[零钱兑换](Problemset/coin-change/README.md)|[Python3](Problemset/coin-change/coin-change.py)|42.4%|中等|[动态规划](https://leetcode-cn.com/tag/dynamic-programming)|
+|309|[最佳买卖股票时机含冷冻期](Problemset/best-time-to-buy-and-sell-stock-with-cooldown/README.md)|[Python3](Problemset/best-time-to-buy-and-sell-stock-with-cooldown/best-time-to-buy-and-sell-stock-with-cooldown.py)|57.5%|中等|[动态规划](https://leetcode-cn.com/tag/dynamic-programming)|
 |300|[最长递增子序列](Problemset/longest-increasing-subsequence/README.md)|[Python3](Problemset/longest-increasing-subsequence/longest-increasing-subsequence.py)|46.9%|中等|[二分查找](https://leetcode-cn.com/tag/binary-search)<br>[动态规划](https://leetcode-cn.com/tag/dynamic-programming)|
 |206|[反转链表](Problemset/reverse-linked-list/README.md)|[Python3](Problemset/reverse-linked-list/reverse-linked-list.py)|71.3%|简单|[链表](https://leetcode-cn.com/tag/linked-list)|
+|195|[第十行](Problemset/tenth-line/README.md)|[Shell](Problemset/tenth-line/tenth-line.sh)|43.2%|简单||
+|193|[有效电话号码](Problemset/valid-phone-numbers/README.md)|[Shell](Problemset/valid-phone-numbers/valid-phone-numbers.sh)|31.2%|简单||
+|192|[统计词频](Problemset/word-frequency/README.md)|[Shell](Problemset/word-frequency/word-frequency.sh)|34.9%|中等||
+|188|[买卖股票的最佳时机 IV](Problemset/best-time-to-buy-and-sell-stock-iv/README.md)|[Python3](Problemset/best-time-to-buy-and-sell-stock-iv/best-time-to-buy-and-sell-stock-iv.py)|36.0%|困难|[动态规划](https://leetcode-cn.com/tag/dynamic-programming)|
+|123|[买卖股票的最佳时机 III](Problemset/best-time-to-buy-and-sell-stock-iii/README.md)|[Python3](Problemset/best-time-to-buy-and-sell-stock-iii/best-time-to-buy-and-sell-stock-iii.py)|50.9%|困难|[数组](https://leetcode-cn.com/tag/array)<br>[动态规划](https://leetcode-cn.com/tag/dynamic-programming)|
+|122|[买卖股票的最佳时机 II](Problemset/best-time-to-buy-and-sell-stock-ii/README.md)|[Python3](Problemset/best-time-to-buy-and-sell-stock-ii/best-time-to-buy-and-sell-stock-ii.py)|66.3%|简单|[贪心算法](https://leetcode-cn.com/tag/greedy)<br>[数组](https://leetcode-cn.com/tag/array)|
+|121|[买卖股票的最佳时机](Problemset/best-time-to-buy-and-sell-stock/README.md)|[Python3](Problemset/best-time-to-buy-and-sell-stock/best-time-to-buy-and-sell-stock.py)|55.8%|简单|[数组](https://leetcode-cn.com/tag/array)<br>[动态规划](https://leetcode-cn.com/tag/dynamic-programming)|
 |111|[二叉树的最小深度](Problemset/minimum-depth-of-binary-tree/README.md)|[Python3](Problemset/minimum-depth-of-binary-tree/minimum-depth-of-binary-tree.py)|46.4%|简单|[树](https://leetcode-cn.com/tag/tree)<br>[深度优先搜索](https://leetcode-cn.com/tag/depth-first-search)<br>[广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search)|
 |108|[将有序数组转换为二叉搜索树](Problemset/convert-sorted-array-to-binary-search-tree/README.md)|[Python3](Problemset/convert-sorted-array-to-binary-search-tree/convert-sorted-array-to-binary-search-tree.py)|74.7%|简单|[树](https://leetcode-cn.com/tag/tree)<br>[深度优先搜索](https://leetcode-cn.com/tag/depth-first-search)|
 |107|[二叉树的层序遍历 II](Problemset/binary-tree-level-order-traversal-ii/README.md)|[Python3](Problemset/binary-tree-level-order-traversal-ii/binary-tree-level-order-traversal-ii.py)|68.0%|简单|[树](https://leetcode-cn.com/tag/tree)<br>[广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search)|
