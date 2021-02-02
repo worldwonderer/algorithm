@@ -4,16 +4,16 @@
 <p align="center"><img width="300" src="https://raw.githubusercontent.com/KivenCkl/LeetCode_Helper/master/imgs/leetcode-logo.png"></p>
 <p align="center">
     <img src="https://img.shields.io/badge/User-worldwonderer-blue.svg?" alt="">
-    <img src="https://img.shields.io/badge/Solved-126/1956-blue.svg?" alt="">
-    <img src="https://img.shields.io/badge/Easy-71-green.svg?" alt="">
-    <img src="https://img.shields.io/badge/Medium-43-orange.svg?" alt="">
-    <img src="https://img.shields.io/badge/Hard-12-red.svg?" alt="">
+    <img src="https://img.shields.io/badge/Solved-129/1956-blue.svg?" alt="">
+    <img src="https://img.shields.io/badge/Easy-72-green.svg?" alt="">
+    <img src="https://img.shields.io/badge/Medium-44-orange.svg?" alt="">
+    <img src="https://img.shields.io/badge/Hard-13-red.svg?" alt="">
 </p>
 <h1 align="center">My LeetCode Solutions</h1>
 
 <p align="center">
     <br>
-    <b>Last updated: 2021-02-02 21:48:30</b>
+    <b>Last updated: 2021-02-02 23:45:00</b>
     <br>
 </p>
 
@@ -62,8 +62,8 @@
 |剑指 Offer 37|[序列化二叉树  LCOF](Problemset/xu-lie-hua-er-cha-shu-lcof/README_EN.md)|[Python3](Problemset/xu-lie-hua-er-cha-shu-lcof/xu-lie-hua-er-cha-shu-lcof.py)|52.5%|hard|[Tree](https://leetcode-cn.com/tag/tree)<br>[Design](https://leetcode-cn.com/tag/design)|
 |剑指 Offer 31|[栈的压入、弹出序列 LCOF](Problemset/zhan-de-ya-ru-dan-chu-xu-lie-lcof/README_EN.md)|[Python3](Problemset/zhan-de-ya-ru-dan-chu-xu-lie-lcof/zhan-de-ya-ru-dan-chu-xu-lie-lcof.py)|60.0%|medium||
 |剑指 Offer 36|[二叉搜索树与双向链表  LCOF](Problemset/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof/README_EN.md)|[Python3](Problemset/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof.py)|64.9%|medium|[Divide and Conquer](https://leetcode-cn.com/tag/divide-and-conquer)|
-|剑指 Offer 42|[连续子数组的最大和  LCOF](Problemset/lian-xu-zi-shu-zu-de-zui-da-he-lcof/README_EN.md)|[Python3](Problemset/lian-xu-zi-shu-zu-de-zui-da-he-lcof/lian-xu-zi-shu-zu-de-zui-da-he-lcof.py)|60.0%|easy|[Divide and Conquer](https://leetcode-cn.com/tag/divide-and-conquer)<br>[Dynamic Programming](https://leetcode-cn.com/tag/dynamic-programming)|
-|剑指 Offer 41|[数据流中的中位数  LCOF](Problemset/shu-ju-liu-zhong-de-zhong-wei-shu-lcof/README_EN.md)|[Python3](Problemset/shu-ju-liu-zhong-de-zhong-wei-shu-lcof/shu-ju-liu-zhong-de-zhong-wei-shu-lcof.py)|56.6%|hard|[Heap](https://leetcode-cn.com/tag/heap)<br>[Design](https://leetcode-cn.com/tag/design)|
+|剑指 Offer 42|[连续子数组的最大和  LCOF](Problemset/lian-xu-zi-shu-zu-de-zui-da-he-lcof/README_EN.md)|[Python3](Problemset/lian-xu-zi-shu-zu-de-zui-da-he-lcof/lian-xu-zi-shu-zu-de-zui-da-he-lcof.py)|59.9%|easy|[Divide and Conquer](https://leetcode-cn.com/tag/divide-and-conquer)<br>[Dynamic Programming](https://leetcode-cn.com/tag/dynamic-programming)|
+|剑指 Offer 41|[数据流中的中位数  LCOF](Problemset/shu-ju-liu-zhong-de-zhong-wei-shu-lcof/README_EN.md)|[Python3](Problemset/shu-ju-liu-zhong-de-zhong-wei-shu-lcof/shu-ju-liu-zhong-de-zhong-wei-shu-lcof.py)|56.7%|hard|[Heap](https://leetcode-cn.com/tag/heap)<br>[Design](https://leetcode-cn.com/tag/design)|
 |剑指 Offer 30|[包含min函数的栈 LCOF](Problemset/bao-han-minhan-shu-de-zhan-lcof/README_EN.md)|[Python3](Problemset/bao-han-minhan-shu-de-zhan-lcof/bao-han-minhan-shu-de-zhan-lcof.py)|57.4%|easy|[Stack](https://leetcode-cn.com/tag/stack)<br>[Design](https://leetcode-cn.com/tag/design)|
 |剑指 Offer 40|[最小的k个数  LCOF](Problemset/zui-xiao-de-kge-shu-lcof/README_EN.md)|[Python3](Problemset/zui-xiao-de-kge-shu-lcof/zui-xiao-de-kge-shu-lcof.py)|57.1%|easy|[Heap](https://leetcode-cn.com/tag/heap)<br>[Divide and Conquer](https://leetcode-cn.com/tag/divide-and-conquer)|
 |剑指 Offer 35|[复杂链表的复制  LCOF](Problemset/fu-za-lian-biao-de-fu-zhi-lcof/README_EN.md)|[Python3](Problemset/fu-za-lian-biao-de-fu-zhi-lcof/fu-za-lian-biao-de-fu-zhi-lcof.py)|71.9%|medium|[Linked List](https://leetcode-cn.com/tag/linked-list)|
@@ -77,7 +77,7 @@
 |剑指 Offer 15|[二进制中1的个数 LCOF](Problemset/er-jin-zhi-zhong-1de-ge-shu-lcof/README_EN.md)|[Python3](Problemset/er-jin-zhi-zhong-1de-ge-shu-lcof/er-jin-zhi-zhong-1de-ge-shu-lcof.py)|73.0%|easy|[Bit Manipulation](https://leetcode-cn.com/tag/bit-manipulation)|
 |剑指 Offer 21|[调整数组顺序使奇数位于偶数前面 LCOF](Problemset/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/README_EN.md)|[Python3](Problemset/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.py)|64.3%|easy||
 |剑指 Offer 20|[表示数值的字符串 LCOF](Problemset/biao-shi-shu-zhi-de-zi-fu-chuan-lcof/README_EN.md)|[Python3](Problemset/biao-shi-shu-zhi-de-zi-fu-chuan-lcof/biao-shi-shu-zhi-de-zi-fu-chuan-lcof.py)|23.1%|medium|[Math](https://leetcode-cn.com/tag/math)|
-|剑指 Offer 28|[对称的二叉树  LCOF](Problemset/dui-cheng-de-er-cha-shu-lcof/README_EN.md)|[Python3](Problemset/dui-cheng-de-er-cha-shu-lcof/dui-cheng-de-er-cha-shu-lcof.py)|57.9%|easy|[Tree](https://leetcode-cn.com/tag/tree)|
+|剑指 Offer 28|[对称的二叉树  LCOF](Problemset/dui-cheng-de-er-cha-shu-lcof/README_EN.md)|[Python3](Problemset/dui-cheng-de-er-cha-shu-lcof/dui-cheng-de-er-cha-shu-lcof.py)|58.0%|easy|[Tree](https://leetcode-cn.com/tag/tree)|
 |剑指 Offer 27|[二叉树的镜像  LCOF](Problemset/er-cha-shu-de-jing-xiang-lcof/README_EN.md)|[Python3](Problemset/er-cha-shu-de-jing-xiang-lcof/er-cha-shu-de-jing-xiang-lcof.py)|78.9%|easy|[Tree](https://leetcode-cn.com/tag/tree)|
 |剑指 Offer 26|[树的子结构  LCOF](Problemset/shu-de-zi-jie-gou-lcof/README_EN.md)|[Python3](Problemset/shu-de-zi-jie-gou-lcof/shu-de-zi-jie-gou-lcof.py)|45.9%|medium|[Tree](https://leetcode-cn.com/tag/tree)|
 |剑指 Offer 25|[合并两个排序的链表  LCOF](Problemset/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/README_EN.md)|[Python3](Problemset/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/he-bing-liang-ge-pai-xu-de-lian-biao-lcof.py)|73.0%|easy|[Divide and Conquer](https://leetcode-cn.com/tag/divide-and-conquer)|
@@ -99,12 +99,13 @@
 |887|[Super Egg Drop](Problemset/super-egg-drop/README_EN.md)|[Python3](Problemset/super-egg-drop/super-egg-drop.py)|28.9%|hard|[Math](https://leetcode-cn.com/tag/math)<br>[Binary Search](https://leetcode-cn.com/tag/binary-search)<br>[Dynamic Programming](https://leetcode-cn.com/tag/dynamic-programming)|
 |877|[Stone Game](Problemset/stone-game/README_EN.md)|[Python3](Problemset/stone-game/stone-game.py)|72.2%|medium|[Minimax](https://leetcode-cn.com/tag/minimax)<br>[Math](https://leetcode-cn.com/tag/math)<br>[Dynamic Programming](https://leetcode-cn.com/tag/dynamic-programming)|
 |752|[Open the Lock](Problemset/open-the-lock/README_EN.md)|[Python3](Problemset/open-the-lock/open-the-lock.py)|49.3%|medium|[Breadth-first Search](https://leetcode-cn.com/tag/breadth-first-search)|
-|714|[Best Time to Buy and Sell Stock with Transaction Fee](Problemset/best-time-to-buy-and-sell-stock-with-transaction-fee/README_EN.md)|[Python3](Problemset/best-time-to-buy-and-sell-stock-with-transaction-fee/best-time-to-buy-and-sell-stock-with-transaction-fee.py)|69.8%|medium|[Greedy](https://leetcode-cn.com/tag/greedy)<br>[Array](https://leetcode-cn.com/tag/array)<br>[Dynamic Programming](https://leetcode-cn.com/tag/dynamic-programming)|
+|714|[Best Time to Buy and Sell Stock with Transaction Fee](Problemset/best-time-to-buy-and-sell-stock-with-transaction-fee/README_EN.md)|[Python3](Problemset/best-time-to-buy-and-sell-stock-with-transaction-fee/best-time-to-buy-and-sell-stock-with-transaction-fee.py)|69.9%|medium|[Greedy](https://leetcode-cn.com/tag/greedy)<br>[Array](https://leetcode-cn.com/tag/array)<br>[Dynamic Programming](https://leetcode-cn.com/tag/dynamic-programming)|
 |516|[Longest Palindromic Subsequence](Problemset/longest-palindromic-subsequence/README_EN.md)|[Python3](Problemset/longest-palindromic-subsequence/longest-palindromic-subsequence.py)|59.5%|medium|[Dynamic Programming](https://leetcode-cn.com/tag/dynamic-programming)|
 |322|[Coin Change](Problemset/coin-change/README_EN.md)|[Python3](Problemset/coin-change/coin-change.py)|42.4%|medium|[Dynamic Programming](https://leetcode-cn.com/tag/dynamic-programming)|
 |309|[Best Time to Buy and Sell Stock with Cooldown](Problemset/best-time-to-buy-and-sell-stock-with-cooldown/README_EN.md)|[Python3](Problemset/best-time-to-buy-and-sell-stock-with-cooldown/best-time-to-buy-and-sell-stock-with-cooldown.py)|57.5%|medium|[Dynamic Programming](https://leetcode-cn.com/tag/dynamic-programming)|
 |300|[Longest Increasing Subsequence](Problemset/longest-increasing-subsequence/README_EN.md)|[Python3](Problemset/longest-increasing-subsequence/longest-increasing-subsequence.py)|46.9%|medium|[Binary Search](https://leetcode-cn.com/tag/binary-search)<br>[Dynamic Programming](https://leetcode-cn.com/tag/dynamic-programming)|
-|206|[Reverse Linked List](Problemset/reverse-linked-list/README_EN.md)|[Python3](Problemset/reverse-linked-list/reverse-linked-list.py)|71.3%|easy|[Linked List](https://leetcode-cn.com/tag/linked-list)|
+|234|[Palindrome Linked List](Problemset/palindrome-linked-list/README_EN.md)|[Python3](Problemset/palindrome-linked-list/palindrome-linked-list.py)|45.4%|easy|[Linked List](https://leetcode-cn.com/tag/linked-list)<br>[Two Pointers](https://leetcode-cn.com/tag/two-pointers)|
+|206|[Reverse Linked List](Problemset/reverse-linked-list/README_EN.md)|[Python3](Problemset/reverse-linked-list/reverse-linked-list.py)<br>[Python3](Problemset/reverse-linked-list/reverse-linked-list.py)|71.3%|easy|[Linked List](https://leetcode-cn.com/tag/linked-list)|
 |195|[Tenth Line](Problemset/tenth-line/README_EN.md)|[Shell](Problemset/tenth-line/tenth-line.sh)|43.2%|easy||
 |193|[Valid Phone Numbers](Problemset/valid-phone-numbers/README_EN.md)|[Shell](Problemset/valid-phone-numbers/valid-phone-numbers.sh)|31.2%|easy||
 |192|[Word Frequency](Problemset/word-frequency/README_EN.md)|[Shell](Problemset/word-frequency/word-frequency.sh)|34.9%|medium||
@@ -118,7 +119,7 @@
 |104|[Maximum Depth of Binary Tree](Problemset/maximum-depth-of-binary-tree/README_EN.md)|[Python3](Problemset/maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.py)|75.6%|easy|[Tree](https://leetcode-cn.com/tag/tree)<br>[Depth-first Search](https://leetcode-cn.com/tag/depth-first-search)<br>[Recursion](https://leetcode-cn.com/tag/recursion)|
 |101|[Symmetric Tree](Problemset/symmetric-tree/README_EN.md)|[Python3](Problemset/symmetric-tree/symmetric-tree.py)|53.5%|easy|[Tree](https://leetcode-cn.com/tag/tree)<br>[Depth-first Search](https://leetcode-cn.com/tag/depth-first-search)<br>[Breadth-first Search](https://leetcode-cn.com/tag/breadth-first-search)|
 |100|[Same Tree](Problemset/same-tree/README_EN.md)|[Python3](Problemset/same-tree/same-tree.py)|60.2%|easy|[Tree](https://leetcode-cn.com/tag/tree)<br>[Depth-first Search](https://leetcode-cn.com/tag/depth-first-search)|
-|92|[Reverse Linked List II](Problemset/reverse-linked-list-ii/README_EN.md)|[Python3](Problemset/reverse-linked-list-ii/reverse-linked-list-ii.py)|52.1%|medium|[Linked List](https://leetcode-cn.com/tag/linked-list)|
+|92|[Reverse Linked List II](Problemset/reverse-linked-list-ii/README_EN.md)|[Python3](Problemset/reverse-linked-list-ii/reverse-linked-list-ii.py)<br>[Python3](Problemset/reverse-linked-list-ii/reverse-linked-list-ii.py)|52.1%|medium|[Linked List](https://leetcode-cn.com/tag/linked-list)|
 |88|[Merge Sorted Array](Problemset/merge-sorted-array/README_EN.md)|[Python3](Problemset/merge-sorted-array/merge-sorted-array.py)|49.3%|easy|[Array](https://leetcode-cn.com/tag/array)<br>[Two Pointers](https://leetcode-cn.com/tag/two-pointers)|
 |83|[Remove Duplicates from Sorted List](Problemset/remove-duplicates-from-sorted-list/README_EN.md)|[Python3](Problemset/remove-duplicates-from-sorted-list/remove-duplicates-from-sorted-list.py)|51.9%|easy|[Linked List](https://leetcode-cn.com/tag/linked-list)|
 |76|[Minimum Window Substring](Problemset/minimum-window-substring/README_EN.md)|[Python3](Problemset/minimum-window-substring/minimum-window-substring.py)|40.4%|hard|[Hash Table](https://leetcode-cn.com/tag/hash-table)<br>[Two Pointers](https://leetcode-cn.com/tag/two-pointers)<br>[String](https://leetcode-cn.com/tag/string)<br>[Sliding Window](https://leetcode-cn.com/tag/sliding-window)|
@@ -136,6 +137,7 @@
 |28|[Implement strStr()](Problemset/implement-strstr/README_EN.md)|[Python3](Problemset/implement-strstr/implement-strstr.py)|39.7%|easy|[Two Pointers](https://leetcode-cn.com/tag/two-pointers)<br>[String](https://leetcode-cn.com/tag/string)|
 |27|[Remove Element](Problemset/remove-element/README_EN.md)|[Python3](Problemset/remove-element/remove-element.py)|59.2%|easy|[Array](https://leetcode-cn.com/tag/array)<br>[Two Pointers](https://leetcode-cn.com/tag/two-pointers)|
 |26|[Remove Duplicates from Sorted Array](Problemset/remove-duplicates-from-sorted-array/README_EN.md)|[Python3](Problemset/remove-duplicates-from-sorted-array/remove-duplicates-from-sorted-array.py)|52.8%|easy|[Array](https://leetcode-cn.com/tag/array)<br>[Two Pointers](https://leetcode-cn.com/tag/two-pointers)|
+|25|[Reverse Nodes in k-Group](Problemset/reverse-nodes-in-k-group/README_EN.md)|[Python3](Problemset/reverse-nodes-in-k-group/reverse-nodes-in-k-group.py)|64.0%|hard|[Linked List](https://leetcode-cn.com/tag/linked-list)|
 |21|[Merge Two Sorted Lists](Problemset/merge-two-sorted-lists/README_EN.md)|[Python3](Problemset/merge-two-sorted-lists/merge-two-sorted-lists.py)|65.2%|easy|[Recursion](https://leetcode-cn.com/tag/recursion)<br>[Linked List](https://leetcode-cn.com/tag/linked-list)|
 |20|[Valid Parentheses](Problemset/valid-parentheses/README_EN.md)|[Python3](Problemset/valid-parentheses/valid-parentheses.py)|43.7%|easy|[Stack](https://leetcode-cn.com/tag/stack)<br>[String](https://leetcode-cn.com/tag/string)|
 |14|[Longest Common Prefix](Problemset/longest-common-prefix/README_EN.md)|[Python3](Problemset/longest-common-prefix/longest-common-prefix.py)|39.2%|easy|[String](https://leetcode-cn.com/tag/string)|
@@ -144,4 +146,5 @@
 |9|[Palindrome Number](Problemset/palindrome-number/README_EN.md)|[Python3](Problemset/palindrome-number/palindrome-number.py)|58.7%|easy|[Math](https://leetcode-cn.com/tag/math)|
 |7|[Reverse Integer](Problemset/reverse-integer/README_EN.md)|[Python3](Problemset/reverse-integer/reverse-integer.py)|34.9%|easy|[Math](https://leetcode-cn.com/tag/math)|
 |5|[Longest Palindromic Substring](Problemset/longest-palindromic-substring/README_EN.md)|[Python3](Problemset/longest-palindromic-substring/longest-palindromic-substring.py)|32.9%|medium|[String](https://leetcode-cn.com/tag/string)<br>[Dynamic Programming](https://leetcode-cn.com/tag/dynamic-programming)|
+|2|[Add Two Numbers](Problemset/add-two-numbers/README_EN.md)|[Python3](Problemset/add-two-numbers/add-two-numbers.py)|39.4%|medium|[Recursion](https://leetcode-cn.com/tag/recursion)<br>[Linked List](https://leetcode-cn.com/tag/linked-list)<br>[Math](https://leetcode-cn.com/tag/math)|
 |1|[Two Sum](Problemset/two-sum/README_EN.md)|[Python3](Problemset/two-sum/two-sum.py)|50.0%|easy|[Array](https://leetcode-cn.com/tag/array)<br>[Hash Table](https://leetcode-cn.com/tag/hash-table)|
