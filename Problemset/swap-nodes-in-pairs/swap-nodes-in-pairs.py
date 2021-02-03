@@ -1,9 +1,9 @@
 
-# @Title: K 个一组翻转链表 (Reverse Nodes in k-Group)
+# @Title: 两两交换链表中的节点 (Swap Nodes in Pairs)
 # @Author: 18015528893
-# @Date: 2021-02-03 15:07:20
-# @Runtime: 48 ms
-# @Memory: 15.5 MB
+# @Date: 2021-02-03 15:02:57
+# @Runtime: 40 ms
+# @Memory: 14.9 MB
 
 # Definition for singly-linked list.
 # class ListNode:
@@ -11,17 +11,16 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def reverseKGroup(self, head: ListNode, k: int) -> ListNode:
+    def swapPairs(self, head: ListNode) -> ListNode:
         if head is None:
             return
-        a = b = head
-        for i in range(k):
-            if b is None:
-                return head
-            b = b.next
+        if head.next is None:
+            return head
+        a = head
+        b = head.next.next if head.next else head
 
         new_head = self.reverse(a, b)
-        a.next = self.reverseKGroup(b, k)
+        a.next = self.swapPairs(b)
         return new_head
 
     def reverse(self, a, b):
