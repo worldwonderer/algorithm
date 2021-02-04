@@ -4,21 +4,23 @@
 <p align="center"><img width="300" src="https://raw.githubusercontent.com/KivenCkl/LeetCode_Helper/master/imgs/leetcode-logo.png"></p>
 <p align="center">
     <img src="https://img.shields.io/badge/用户-worldwonderer-blue.svg?" alt="">
-    <img src="https://img.shields.io/badge/已解决-146/1957-blue.svg?" alt="">
-    <img src="https://img.shields.io/badge/简单-77-green.svg?" alt="">
-    <img src="https://img.shields.io/badge/中等-55-orange.svg?" alt="">
+    <img src="https://img.shields.io/badge/已解决-156/1957-blue.svg?" alt="">
+    <img src="https://img.shields.io/badge/简单-81-green.svg?" alt="">
+    <img src="https://img.shields.io/badge/中等-61-orange.svg?" alt="">
     <img src="https://img.shields.io/badge/困难-14-red.svg?" alt="">
 </p>
 <h1 align="center">LeetCode 的解答</h1>
 
 <p align="center">
     <br>
-    <b>最近一次更新: 2021-02-04 22:06:20</b>
+    <b>最近一次更新: 2021-02-04 23:37:25</b>
     <br>
 </p>
 
 | # | 题名 | 解答 | 通过率 | 难度 | 标签 |
 |:--:|:-----|:---------:|:----:|:----:|:----:|
+|面试题 02.04|[分割链表](Problemset/partition-list-lcci/README.md)|[Python3](Problemset/partition-list-lcci/partition-list-lcci.py)|65.0%|中等|[链表](https://leetcode-cn.com/tag/linked-list)<br>[双指针](https://leetcode-cn.com/tag/two-pointers)|
+|面试题 02.02|[返回倒数第 k 个节点](Problemset/kth-node-from-end-of-list-lcci/README.md)|[Python3](Problemset/kth-node-from-end-of-list-lcci/kth-node-from-end-of-list-lcci.py)|78.0%|简单|[链表](https://leetcode-cn.com/tag/linked-list)<br>[双指针](https://leetcode-cn.com/tag/two-pointers)|
 |剑指 Offer 68 - II|[二叉树的最近公共祖先](Problemset/er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof/README.md)|[Python3](Problemset/er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof/er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof.py)|69.3%|简单|[树](https://leetcode-cn.com/tag/tree)|
 |剑指 Offer 68 - I|[二叉搜索树的最近公共祖先](Problemset/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof/README.md)|[Python3](Problemset/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof.py)|69.0%|简单|[树](https://leetcode-cn.com/tag/tree)|
 |剑指 Offer 64|[求1+2+…+n](Problemset/qiu-12n-lcof/README.md)|[Python3](Problemset/qiu-12n-lcof/qiu-12n-lcof.py)|85.3%|中等||
@@ -43,8 +45,8 @@
 |剑指 Offer 52|[两个链表的第一个公共节点](Problemset/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/README.md)|[Python3](Problemset/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof.py)|63.4%|简单|[链表](https://leetcode-cn.com/tag/linked-list)|
 |剑指 Offer 46|[把数字翻译成字符串](Problemset/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/README.md)|[Python3](Problemset/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.py)|54.0%|中等||
 |剑指 Offer 57 - II|[和为s的连续正数序列](Problemset/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/README.md)|[Python3](Problemset/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof.py)|69.7%|简单||
-|剑指 Offer 45|[把数组排成最小的数](Problemset/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/README.md)|[Python3](Problemset/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.py)|56.0%|中等|[排序](https://leetcode-cn.com/tag/sort)|
-|剑指 Offer 57|[和为s的两个数字](Problemset/he-wei-sde-liang-ge-shu-zi-lcof/README.md)|[Python3](Problemset/he-wei-sde-liang-ge-shu-zi-lcof/he-wei-sde-liang-ge-shu-zi-lcof.py)|65.7%|简单||
+|剑指 Offer 45|[把数组排成最小的数](Problemset/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/README.md)|[Python3](Problemset/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.py)|55.9%|中等|[排序](https://leetcode-cn.com/tag/sort)|
+|剑指 Offer 57|[和为s的两个数字](Problemset/he-wei-sde-liang-ge-shu-zi-lcof/README.md)|[Python3](Problemset/he-wei-sde-liang-ge-shu-zi-lcof/he-wei-sde-liang-ge-shu-zi-lcof.py)|65.8%|简单||
 |剑指 Offer 56 - II|[数组中数字出现的次数 II](Problemset/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof/README.md)|[Python3](Problemset/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof.py)|79.5%|中等||
 |剑指 Offer 56 - I|[数组中数字出现的次数](Problemset/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/README.md)|[Python3](Problemset/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof.py)|70.9%|中等||
 |剑指 Offer 55 - I|[二叉树的深度](Problemset/er-cha-shu-de-shen-du-lcof/README.md)|[Python3](Problemset/er-cha-shu-de-shen-du-lcof/er-cha-shu-de-shen-du-lcof.py)|78.8%|简单|[树](https://leetcode-cn.com/tag/tree)<br>[深度优先搜索](https://leetcode-cn.com/tag/depth-first-search)|
@@ -66,7 +68,7 @@
 |剑指 Offer 41|[数据流中的中位数](Problemset/shu-ju-liu-zhong-de-zhong-wei-shu-lcof/README.md)|[Python3](Problemset/shu-ju-liu-zhong-de-zhong-wei-shu-lcof/shu-ju-liu-zhong-de-zhong-wei-shu-lcof.py)|56.9%|困难|[堆](https://leetcode-cn.com/tag/heap)<br>[设计](https://leetcode-cn.com/tag/design)|
 |剑指 Offer 30|[包含min函数的栈](Problemset/bao-han-minhan-shu-de-zhan-lcof/README.md)|[Python3](Problemset/bao-han-minhan-shu-de-zhan-lcof/bao-han-minhan-shu-de-zhan-lcof.py)|57.4%|简单|[栈](https://leetcode-cn.com/tag/stack)<br>[设计](https://leetcode-cn.com/tag/design)|
 |剑指 Offer 40|[最小的k个数](Problemset/zui-xiao-de-kge-shu-lcof/README.md)|[Python3](Problemset/zui-xiao-de-kge-shu-lcof/zui-xiao-de-kge-shu-lcof.py)|57.1%|简单|[堆](https://leetcode-cn.com/tag/heap)<br>[分治算法](https://leetcode-cn.com/tag/divide-and-conquer)|
-|剑指 Offer 35|[复杂链表的复制](Problemset/fu-za-lian-biao-de-fu-zhi-lcof/README.md)|[Python3](Problemset/fu-za-lian-biao-de-fu-zhi-lcof/fu-za-lian-biao-de-fu-zhi-lcof.py)|72.0%|中等|[链表](https://leetcode-cn.com/tag/linked-list)|
+|剑指 Offer 35|[复杂链表的复制](Problemset/fu-za-lian-biao-de-fu-zhi-lcof/README.md)|[Python3](Problemset/fu-za-lian-biao-de-fu-zhi-lcof/fu-za-lian-biao-de-fu-zhi-lcof.py)|71.9%|中等|[链表](https://leetcode-cn.com/tag/linked-list)|
 |剑指 Offer 18|[删除链表的节点](Problemset/shan-chu-lian-biao-de-jie-dian-lcof/README.md)|[Python3](Problemset/shan-chu-lian-biao-de-jie-dian-lcof/shan-chu-lian-biao-de-jie-dian-lcof.py)|58.8%|简单|[链表](https://leetcode-cn.com/tag/linked-list)|
 |剑指 Offer 24|[反转链表](Problemset/fan-zhuan-lian-biao-lcof/README.md)|[Python3](Problemset/fan-zhuan-lian-biao-lcof/fan-zhuan-lian-biao-lcof.py)|74.3%|简单|[链表](https://leetcode-cn.com/tag/linked-list)|
 |剑指 Offer 19|[正则表达式匹配](Problemset/zheng-ze-biao-da-shi-pi-pei-lcof/README.md)|[Python3](Problemset/zheng-ze-biao-da-shi-pi-pei-lcof/zheng-ze-biao-da-shi-pi-pei-lcof.py)|36.3%|困难|[动态规划](https://leetcode-cn.com/tag/dynamic-programming)|
@@ -94,14 +96,22 @@
 |剑指 Offer 03|[数组中重复的数字](Problemset/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/README.md)|[Python3](Problemset/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/shu-zu-zhong-zhong-fu-de-shu-zi-lcof.py)|67.5%|简单|[数组](https://leetcode-cn.com/tag/array)<br>[哈希表](https://leetcode-cn.com/tag/hash-table)|
 |剑指 Offer 10- I|[斐波那契数列](Problemset/fei-bo-na-qi-shu-lie-lcof/README.md)|[Python3](Problemset/fei-bo-na-qi-shu-lie-lcof/fei-bo-na-qi-shu-lie-lcof.py)|33.9%|简单|[递归](https://leetcode-cn.com/tag/recursion)|
 |剑指 Offer 09|[用两个栈实现队列](Problemset/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/README.md)|[Python3](Problemset/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/yong-liang-ge-zhan-shi-xian-dui-lie-lcof.py)|72.6%|简单|[栈](https://leetcode-cn.com/tag/stack)<br>[设计](https://leetcode-cn.com/tag/design)|
+|面试题 02.05|[链表求和](Problemset/sum-lists-lcci/README.md)|[Python3](Problemset/sum-lists-lcci/sum-lists-lcci.py)|46.3%|中等|[链表](https://leetcode-cn.com/tag/linked-list)<br>[数学](https://leetcode-cn.com/tag/math)|
+|面试题 02.03|[删除中间节点](Problemset/delete-middle-node-lcci/README.md)|[Python3](Problemset/delete-middle-node-lcci/delete-middle-node-lcci.py)|85.3%|简单|[链表](https://leetcode-cn.com/tag/linked-list)|
+|面试题 02.08|[环路检测](Problemset/linked-list-cycle-lcci/README.md)|[Python3](Problemset/linked-list-cycle-lcci/linked-list-cycle-lcci.py)|51.5%|中等|[链表](https://leetcode-cn.com/tag/linked-list)|
+|面试题 02.07|[链表相交](Problemset/intersection-of-two-linked-lists-lcci/README.md)|[Python3](Problemset/intersection-of-two-linked-lists-lcci/intersection-of-two-linked-lists-lcci.py)|68.8%|简单|[链表](https://leetcode-cn.com/tag/linked-list)|
+|面试题 02.06|[回文链表](Problemset/palindrome-linked-list-lcci/README.md)|[Python3](Problemset/palindrome-linked-list-lcci/palindrome-linked-list-lcci.py)|47.4%|简单|[链表](https://leetcode-cn.com/tag/linked-list)|
 |1143|[最长公共子序列](Problemset/longest-common-subsequence/README.md)|[Python3](Problemset/longest-common-subsequence/longest-common-subsequence.py)|60.9%|中等|[动态规划](https://leetcode-cn.com/tag/dynamic-programming)|
 |509|[斐波那契数](Problemset/fibonacci-number/README.md)|[Python3](Problemset/fibonacci-number/fibonacci-number.py)|68.3%|简单|[数组](https://leetcode-cn.com/tag/array)|
 |887|[鸡蛋掉落](Problemset/super-egg-drop/README.md)|[Python3](Problemset/super-egg-drop/super-egg-drop.py)|28.9%|困难|[数学](https://leetcode-cn.com/tag/math)<br>[二分查找](https://leetcode-cn.com/tag/binary-search)<br>[动态规划](https://leetcode-cn.com/tag/dynamic-programming)|
 |877|[石子游戏](Problemset/stone-game/README.md)|[Python3](Problemset/stone-game/stone-game.py)|72.2%|中等|[极小化极大](https://leetcode-cn.com/tag/minimax)<br>[数学](https://leetcode-cn.com/tag/math)<br>[动态规划](https://leetcode-cn.com/tag/dynamic-programming)|
 |876|[链表的中间结点](Problemset/middle-of-the-linked-list/README.md)|[Python3](Problemset/middle-of-the-linked-list/middle-of-the-linked-list.py)|69.9%|简单|[链表](https://leetcode-cn.com/tag/linked-list)|
 |752|[打开转盘锁](Problemset/open-the-lock/README.md)|[Python3](Problemset/open-the-lock/open-the-lock.py)|49.3%|中等|[广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search)|
-|714|[买卖股票的最佳时机含手续费](Problemset/best-time-to-buy-and-sell-stock-with-transaction-fee/README.md)|[Python3](Problemset/best-time-to-buy-and-sell-stock-with-transaction-fee/best-time-to-buy-and-sell-stock-with-transaction-fee.py)|69.9%|中等|[贪心算法](https://leetcode-cn.com/tag/greedy)<br>[数组](https://leetcode-cn.com/tag/array)<br>[动态规划](https://leetcode-cn.com/tag/dynamic-programming)|
+|714|[买卖股票的最佳时机含手续费](Problemset/best-time-to-buy-and-sell-stock-with-transaction-fee/README.md)|[Python3](Problemset/best-time-to-buy-and-sell-stock-with-transaction-fee/best-time-to-buy-and-sell-stock-with-transaction-fee.py)|69.8%|中等|[贪心算法](https://leetcode-cn.com/tag/greedy)<br>[数组](https://leetcode-cn.com/tag/array)<br>[动态规划](https://leetcode-cn.com/tag/dynamic-programming)|
+|1721|[交换链表中的节点](Problemset/swapping-nodes-in-a-linked-list/README.md)|[Python3](Problemset/swapping-nodes-in-a-linked-list/swapping-nodes-in-a-linked-list.py)|68.4%|中等|[链表](https://leetcode-cn.com/tag/linked-list)|
 |516|[最长回文子序列](Problemset/longest-palindromic-subsequence/README.md)|[Python3](Problemset/longest-palindromic-subsequence/longest-palindromic-subsequence.py)|59.5%|中等|[动态规划](https://leetcode-cn.com/tag/dynamic-programming)|
+|445|[两数相加 II](Problemset/add-two-numbers-ii/README.md)|[Python3](Problemset/add-two-numbers-ii/add-two-numbers-ii.py)|58.3%|中等|[链表](https://leetcode-cn.com/tag/linked-list)|
+|328|[奇偶链表](Problemset/odd-even-linked-list/README.md)|[Python3](Problemset/odd-even-linked-list/odd-even-linked-list.py)|65.6%|中等|[链表](https://leetcode-cn.com/tag/linked-list)|
 |322|[零钱兑换](Problemset/coin-change/README.md)|[Python3](Problemset/coin-change/coin-change.py)|42.5%|中等|[动态规划](https://leetcode-cn.com/tag/dynamic-programming)|
 |309|[最佳买卖股票时机含冷冻期](Problemset/best-time-to-buy-and-sell-stock-with-cooldown/README.md)|[Python3](Problemset/best-time-to-buy-and-sell-stock-with-cooldown/best-time-to-buy-and-sell-stock-with-cooldown.py)|57.5%|中等|[动态规划](https://leetcode-cn.com/tag/dynamic-programming)|
 |300|[最长递增子序列](Problemset/longest-increasing-subsequence/README.md)|[Python3](Problemset/longest-increasing-subsequence/longest-increasing-subsequence.py)|46.9%|中等|[二分查找](https://leetcode-cn.com/tag/binary-search)<br>[动态规划](https://leetcode-cn.com/tag/dynamic-programming)|
@@ -135,7 +145,7 @@
 |86|[分隔链表](Problemset/partition-list/README.md)|[Python3](Problemset/partition-list/partition-list.py)|62.4%|中等|[链表](https://leetcode-cn.com/tag/linked-list)<br>[双指针](https://leetcode-cn.com/tag/two-pointers)|
 |83|[删除排序链表中的重复元素](Problemset/remove-duplicates-from-sorted-list/README.md)|[Python3](Problemset/remove-duplicates-from-sorted-list/remove-duplicates-from-sorted-list.py)|51.9%|简单|[链表](https://leetcode-cn.com/tag/linked-list)|
 |82|[删除排序链表中的重复元素 II](Problemset/remove-duplicates-from-sorted-list-ii/README.md)|[Python3](Problemset/remove-duplicates-from-sorted-list-ii/remove-duplicates-from-sorted-list-ii.py)|50.2%|中等|[链表](https://leetcode-cn.com/tag/linked-list)|
-|76|[最小覆盖子串](Problemset/minimum-window-substring/README.md)|[Python3](Problemset/minimum-window-substring/minimum-window-substring.py)|40.4%|困难|[哈希表](https://leetcode-cn.com/tag/hash-table)<br>[双指针](https://leetcode-cn.com/tag/two-pointers)<br>[字符串](https://leetcode-cn.com/tag/string)<br>[None](https://leetcode-cn.com/tag/sliding-window)|
+|76|[最小覆盖子串](Problemset/minimum-window-substring/README.md)|[Python3](Problemset/minimum-window-substring/minimum-window-substring.py)|40.5%|困难|[哈希表](https://leetcode-cn.com/tag/hash-table)<br>[双指针](https://leetcode-cn.com/tag/two-pointers)<br>[字符串](https://leetcode-cn.com/tag/string)<br>[None](https://leetcode-cn.com/tag/sliding-window)|
 |72|[编辑距离](Problemset/edit-distance/README.md)|[Python3](Problemset/edit-distance/edit-distance.py)|60.3%|困难|[字符串](https://leetcode-cn.com/tag/string)<br>[动态规划](https://leetcode-cn.com/tag/dynamic-programming)|
 |70|[爬楼梯](Problemset/climbing-stairs/README.md)|[Python3](Problemset/climbing-stairs/climbing-stairs.py)|51.4%|简单|[动态规划](https://leetcode-cn.com/tag/dynamic-programming)|
 |69|[x 的平方根](Problemset/sqrtx/README.md)|[Python3](Problemset/sqrtx/sqrtx.py)|39.2%|简单|[数学](https://leetcode-cn.com/tag/math)<br>[二分查找](https://leetcode-cn.com/tag/binary-search)|
