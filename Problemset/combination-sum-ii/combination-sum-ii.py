@@ -1,12 +1,12 @@
 
-# @Title: 组合总和 (Combination Sum)
+# @Title: 组合总和 II (Combination Sum II)
 # @Author: 18015528893
-# @Date: 2021-02-08 21:12:38
-# @Runtime: 100 ms
+# @Date: 2021-02-08 21:10:16
+# @Runtime: 92 ms
 # @Memory: 15 MB
 
 class Solution:
-    def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
+    def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
         result = []
         candidates.sort()
         def backtrace(path, start):
@@ -18,11 +18,12 @@ class Solution:
                 return
 
             for i in range(start, len(candidates)):
-                # if i > start and candidates[i-1] == candidates[i]:
-                #     continue
+                if i > start and candidates[i-1] == candidates[i]:
+                    continue
                 path.append(candidates[i])
-                backtrace(path, i)
+                backtrace(path, i+1)
                 path.pop()
         backtrace([], 0)
         return result
+
 

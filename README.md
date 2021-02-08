@@ -4,16 +4,16 @@
 <p align="center"><img width="300" src="https://raw.githubusercontent.com/KivenCkl/LeetCode_Helper/master/imgs/leetcode-logo.png"></p>
 <p align="center">
     <img src="https://img.shields.io/badge/用户-worldwonderer-blue.svg?" alt="">
-    <img src="https://img.shields.io/badge/已解决-187/1966-blue.svg?" alt="">
+    <img src="https://img.shields.io/badge/已解决-191/1966-blue.svg?" alt="">
     <img src="https://img.shields.io/badge/简单-87-green.svg?" alt="">
-    <img src="https://img.shields.io/badge/中等-85-orange.svg?" alt="">
+    <img src="https://img.shields.io/badge/中等-89-orange.svg?" alt="">
     <img src="https://img.shields.io/badge/困难-15-red.svg?" alt="">
 </p>
 <h1 align="center">LeetCode 的解答</h1>
 
 <p align="center">
     <br>
-    <b>最近一次更新: 2021-02-08 20:50:23</b>
+    <b>最近一次更新: 2021-02-08 23:40:33</b>
     <br>
 </p>
 
@@ -31,7 +31,7 @@
 |剑指 Offer 67|[把字符串转换成整数](Problemset/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof/README.md)|[Python3](Problemset/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof.py)|28.1%|中等|[数学](https://leetcode-cn.com/tag/math)<br>[字符串](https://leetcode-cn.com/tag/string)|
 |剑指 Offer 60|[n个骰子的点数](Problemset/nge-tou-zi-de-dian-shu-lcof/README.md)|[Python3](Problemset/nge-tou-zi-de-dian-shu-lcof/nge-tou-zi-de-dian-shu-lcof.py)|54.2%|中等||
 |剑指 Offer 66|[构建乘积数组](Problemset/gou-jian-cheng-ji-shu-zu-lcof/README.md)|[Python3](Problemset/gou-jian-cheng-ji-shu-zu-lcof/gou-jian-cheng-ji-shu-zu-lcof.py)|58.9%|中等||
-|剑指 Offer 59 - II|[队列的最大值](Problemset/dui-lie-de-zui-da-zhi-lcof/README.md)|[Python3](Problemset/dui-lie-de-zui-da-zhi-lcof/dui-lie-de-zui-da-zhi-lcof.py)|47.4%|中等|[栈](https://leetcode-cn.com/tag/stack)<br>[None](https://leetcode-cn.com/tag/sliding-window)|
+|剑指 Offer 59 - II|[队列的最大值](Problemset/dui-lie-de-zui-da-zhi-lcof/README.md)|[Python3](Problemset/dui-lie-de-zui-da-zhi-lcof/dui-lie-de-zui-da-zhi-lcof.py)|47.3%|中等|[栈](https://leetcode-cn.com/tag/stack)<br>[None](https://leetcode-cn.com/tag/sliding-window)|
 |剑指 Offer 59 - I|[滑动窗口的最大值](Problemset/hua-dong-chuang-kou-de-zui-da-zhi-lcof/README.md)|[Python3](Problemset/hua-dong-chuang-kou-de-zui-da-zhi-lcof/hua-dong-chuang-kou-de-zui-da-zhi-lcof.py)|44.2%|简单|[队列](https://leetcode-cn.com/tag/queue)<br>[None](https://leetcode-cn.com/tag/sliding-window)|
 |剑指 Offer 65|[不用加减乘除做加法](Problemset/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof/README.md)|[Python3](Problemset/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof.py)|57.4%|简单||
 |剑指 Offer 49|[丑数](Problemset/chou-shu-lcof/README.md)|[Python3](Problemset/chou-shu-lcof/chou-shu-lcof.py)|64.7%|中等|[数学](https://leetcode-cn.com/tag/math)|
@@ -53,16 +53,16 @@
 |剑指 Offer 51|[数组中的逆序对](Problemset/shu-zu-zhong-de-ni-xu-dui-lcof/README.md)|[Python3](Problemset/shu-zu-zhong-de-ni-xu-dui-lcof/shu-zu-zhong-de-ni-xu-dui-lcof.py)|46.8%|困难||
 |剑指 Offer 34|[二叉树中和为某一值的路径](Problemset/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/README.md)|[Python3](Problemset/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof.py)|57.6%|中等|[树](https://leetcode-cn.com/tag/tree)<br>[深度优先搜索](https://leetcode-cn.com/tag/depth-first-search)|
 |剑指 Offer 50|[第一个只出现一次的字符](Problemset/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/README.md)|[Python3](Problemset/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof.py)|60.6%|简单|[哈希表](https://leetcode-cn.com/tag/hash-table)|
-|剑指 Offer 33|[二叉搜索树的后序遍历序列](Problemset/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/README.md)|[Python3](Problemset/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof.py)|53.4%|中等||
+|剑指 Offer 33|[二叉搜索树的后序遍历序列](Problemset/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/README.md)|[Python3](Problemset/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof.py)|53.5%|中等||
 |剑指 Offer 32 - III|[从上到下打印二叉树 III](Problemset/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof/README.md)|[Python3](Problemset/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof.py)|58.7%|中等|[树](https://leetcode-cn.com/tag/tree)<br>[广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search)|
 |剑指 Offer 44|[数字序列中某一位的数字](Problemset/shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof/README.md)|[Python3](Problemset/shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof/shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof.py)|40.1%|中等|[数学](https://leetcode-cn.com/tag/math)|
 |剑指 Offer 32 - II|[从上到下打印二叉树 II](Problemset/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/README.md)|[Python3](Problemset/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.py)|68.7%|简单|[树](https://leetcode-cn.com/tag/tree)<br>[广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search)|
 |剑指 Offer 32 - I|[从上到下打印二叉树](Problemset/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/README.md)|[Python3](Problemset/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/cong-shang-dao-xia-da-yin-er-cha-shu-lcof.py)|64.7%|中等|[树](https://leetcode-cn.com/tag/tree)<br>[广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search)|
 |剑指 Offer 39|[数组中出现次数超过一半的数字](Problemset/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof/README.md)|[Python3](Problemset/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof.py)|68.2%|简单|[位运算](https://leetcode-cn.com/tag/bit-manipulation)<br>[分治算法](https://leetcode-cn.com/tag/divide-and-conquer)|
 |剑指 Offer 43|[1～n 整数中 1 出现的次数](Problemset/1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof/README.md)|[Python3](Problemset/1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof/1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof.py)|46.6%|困难|[数学](https://leetcode-cn.com/tag/math)|
-|剑指 Offer 38|[字符串的排列](Problemset/zi-fu-chuan-de-pai-lie-lcof/README.md)|[Python3](Problemset/zi-fu-chuan-de-pai-lie-lcof/zi-fu-chuan-de-pai-lie-lcof.py)|55.2%|中等|[回溯算法](https://leetcode-cn.com/tag/backtracking)|
+|剑指 Offer 38|[字符串的排列](Problemset/zi-fu-chuan-de-pai-lie-lcof/README.md)|[Python3](Problemset/zi-fu-chuan-de-pai-lie-lcof/zi-fu-chuan-de-pai-lie-lcof.py)|55.3%|中等|[回溯算法](https://leetcode-cn.com/tag/backtracking)|
 |剑指 Offer 37|[序列化二叉树](Problemset/xu-lie-hua-er-cha-shu-lcof/README.md)|[Python3](Problemset/xu-lie-hua-er-cha-shu-lcof/xu-lie-hua-er-cha-shu-lcof.py)|52.6%|困难|[树](https://leetcode-cn.com/tag/tree)<br>[设计](https://leetcode-cn.com/tag/design)|
-|剑指 Offer 31|[栈的压入、弹出序列](Problemset/zhan-de-ya-ru-dan-chu-xu-lie-lcof/README.md)|[Python3](Problemset/zhan-de-ya-ru-dan-chu-xu-lie-lcof/zhan-de-ya-ru-dan-chu-xu-lie-lcof.py)|59.9%|中等||
+|剑指 Offer 31|[栈的压入、弹出序列](Problemset/zhan-de-ya-ru-dan-chu-xu-lie-lcof/README.md)|[Python3](Problemset/zhan-de-ya-ru-dan-chu-xu-lie-lcof/zhan-de-ya-ru-dan-chu-xu-lie-lcof.py)|60.0%|中等||
 |剑指 Offer 36|[二叉搜索树与双向链表](Problemset/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof/README.md)|[Python3](Problemset/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof.py)|64.8%|中等|[分治算法](https://leetcode-cn.com/tag/divide-and-conquer)|
 |剑指 Offer 42|[连续子数组的最大和](Problemset/lian-xu-zi-shu-zu-de-zui-da-he-lcof/README.md)|[Python3](Problemset/lian-xu-zi-shu-zu-de-zui-da-he-lcof/lian-xu-zi-shu-zu-de-zui-da-he-lcof.py)|60.0%|简单|[分治算法](https://leetcode-cn.com/tag/divide-and-conquer)<br>[动态规划](https://leetcode-cn.com/tag/dynamic-programming)|
 |剑指 Offer 41|[数据流中的中位数](Problemset/shu-ju-liu-zhong-de-zhong-wei-shu-lcof/README.md)|[Python3](Problemset/shu-ju-liu-zhong-de-zhong-wei-shu-lcof/shu-ju-liu-zhong-de-zhong-wei-shu-lcof.py)|56.9%|困难|[堆](https://leetcode-cn.com/tag/heap)<br>[设计](https://leetcode-cn.com/tag/design)|
@@ -96,7 +96,7 @@
 |剑指 Offer 03|[数组中重复的数字](Problemset/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/README.md)|[Python3](Problemset/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/shu-zu-zhong-zhong-fu-de-shu-zi-lcof.py)|67.5%|简单|[数组](https://leetcode-cn.com/tag/array)<br>[哈希表](https://leetcode-cn.com/tag/hash-table)|
 |剑指 Offer 10- I|[斐波那契数列](Problemset/fei-bo-na-qi-shu-lie-lcof/README.md)|[Python3](Problemset/fei-bo-na-qi-shu-lie-lcof/fei-bo-na-qi-shu-lie-lcof.py)|34.0%|简单|[递归](https://leetcode-cn.com/tag/recursion)|
 |剑指 Offer 09|[用两个栈实现队列](Problemset/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/README.md)|[Python3](Problemset/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/yong-liang-ge-zhan-shi-xian-dui-lie-lcof.py)|72.6%|简单|[栈](https://leetcode-cn.com/tag/stack)<br>[设计](https://leetcode-cn.com/tag/design)|
-|面试题 02.05|[链表求和](Problemset/sum-lists-lcci/README.md)|[Python3](Problemset/sum-lists-lcci/sum-lists-lcci.py)|46.2%|中等|[链表](https://leetcode-cn.com/tag/linked-list)<br>[数学](https://leetcode-cn.com/tag/math)|
+|面试题 02.05|[链表求和](Problemset/sum-lists-lcci/README.md)|[Python3](Problemset/sum-lists-lcci/sum-lists-lcci.py)|46.3%|中等|[链表](https://leetcode-cn.com/tag/linked-list)<br>[数学](https://leetcode-cn.com/tag/math)|
 |面试题 02.03|[删除中间节点](Problemset/delete-middle-node-lcci/README.md)|[Python3](Problemset/delete-middle-node-lcci/delete-middle-node-lcci.py)|85.3%|简单|[链表](https://leetcode-cn.com/tag/linked-list)|
 |面试题 02.08|[环路检测](Problemset/linked-list-cycle-lcci/README.md)|[Python3](Problemset/linked-list-cycle-lcci/linked-list-cycle-lcci.py)|51.6%|中等|[链表](https://leetcode-cn.com/tag/linked-list)|
 |面试题 02.07|[链表相交](Problemset/intersection-of-two-linked-lists-lcci/README.md)|[Python3](Problemset/intersection-of-two-linked-lists-lcci/intersection-of-two-linked-lists-lcci.py)|68.9%|简单|[链表](https://leetcode-cn.com/tag/linked-list)|
@@ -133,7 +133,7 @@
 |203|[移除链表元素](Problemset/remove-linked-list-elements/README.md)|[Python3](Problemset/remove-linked-list-elements/remove-linked-list-elements.py)|46.9%|简单|[链表](https://leetcode-cn.com/tag/linked-list)|
 |199|[二叉树的右视图](Problemset/binary-tree-right-side-view/README.md)|[Python3](Problemset/binary-tree-right-side-view/binary-tree-right-side-view.py)|64.8%|中等|[树](https://leetcode-cn.com/tag/tree)<br>[深度优先搜索](https://leetcode-cn.com/tag/depth-first-search)<br>[广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search)|
 |195|[第十行](Problemset/tenth-line/README.md)|[Shell](Problemset/tenth-line/tenth-line.sh)|43.2%|简单||
-|193|[有效电话号码](Problemset/valid-phone-numbers/README.md)|[Shell](Problemset/valid-phone-numbers/valid-phone-numbers.sh)|31.2%|简单||
+|193|[有效电话号码](Problemset/valid-phone-numbers/README.md)|[Shell](Problemset/valid-phone-numbers/valid-phone-numbers.sh)|31.3%|简单||
 |192|[统计词频](Problemset/word-frequency/README.md)|[Shell](Problemset/word-frequency/word-frequency.sh)|34.9%|中等||
 |188|[买卖股票的最佳时机 IV](Problemset/best-time-to-buy-and-sell-stock-iv/README.md)|[Python3](Problemset/best-time-to-buy-and-sell-stock-iv/best-time-to-buy-and-sell-stock-iv.py)|36.1%|困难|[动态规划](https://leetcode-cn.com/tag/dynamic-programming)|
 |160|[相交链表](Problemset/intersection-of-two-linked-lists/README.md)|[Python3](Problemset/intersection-of-two-linked-lists/intersection-of-two-linked-lists.py)|57.5%|简单|[链表](https://leetcode-cn.com/tag/linked-list)|
@@ -154,7 +154,7 @@
 |116|[填充每个节点的下一个右侧节点指针](Problemset/populating-next-right-pointers-in-each-node/README.md)|[Python3](Problemset/populating-next-right-pointers-in-each-node/populating-next-right-pointers-in-each-node.py)|68.7%|中等|[树](https://leetcode-cn.com/tag/tree)<br>[深度优先搜索](https://leetcode-cn.com/tag/depth-first-search)<br>[广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search)|
 |114|[二叉树展开为链表](Problemset/flatten-binary-tree-to-linked-list/README.md)|[Python3](Problemset/flatten-binary-tree-to-linked-list/flatten-binary-tree-to-linked-list.py)|71.7%|中等|[树](https://leetcode-cn.com/tag/tree)<br>[深度优先搜索](https://leetcode-cn.com/tag/depth-first-search)|
 |113|[路径总和 II](Problemset/path-sum-ii/README.md)|[Python3](Problemset/path-sum-ii/path-sum-ii.py)|61.5%|中等|[树](https://leetcode-cn.com/tag/tree)<br>[深度优先搜索](https://leetcode-cn.com/tag/depth-first-search)|
-|112|[路径总和](Problemset/path-sum/README.md)|[Python3](Problemset/path-sum/path-sum.py)|51.7%|简单|[树](https://leetcode-cn.com/tag/tree)<br>[深度优先搜索](https://leetcode-cn.com/tag/depth-first-search)|
+|112|[路径总和](Problemset/path-sum/README.md)|[Python3](Problemset/path-sum/path-sum.py)|51.8%|简单|[树](https://leetcode-cn.com/tag/tree)<br>[深度优先搜索](https://leetcode-cn.com/tag/depth-first-search)|
 |111|[二叉树的最小深度](Problemset/minimum-depth-of-binary-tree/README.md)|[Python3](Problemset/minimum-depth-of-binary-tree/minimum-depth-of-binary-tree.py)|46.5%|简单|[树](https://leetcode-cn.com/tag/tree)<br>[深度优先搜索](https://leetcode-cn.com/tag/depth-first-search)<br>[广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search)|
 |110|[平衡二叉树](Problemset/balanced-binary-tree/README.md)|[Python3](Problemset/balanced-binary-tree/balanced-binary-tree.py)|55.2%|简单|[树](https://leetcode-cn.com/tag/tree)<br>[深度优先搜索](https://leetcode-cn.com/tag/depth-first-search)<br>[递归](https://leetcode-cn.com/tag/recursion)|
 |109|[有序链表转换二叉搜索树](Problemset/convert-sorted-list-to-binary-search-tree/README.md)|[Python3](Problemset/convert-sorted-list-to-binary-search-tree/convert-sorted-list-to-binary-search-tree.py)|76.1%|中等|[深度优先搜索](https://leetcode-cn.com/tag/depth-first-search)<br>[链表](https://leetcode-cn.com/tag/linked-list)|
@@ -164,7 +164,7 @@
 |105|[从前序与中序遍历序列构造二叉树](Problemset/construct-binary-tree-from-preorder-and-inorder-traversal/README.md)|[Python3](Problemset/construct-binary-tree-from-preorder-and-inorder-traversal/construct-binary-tree-from-preorder-and-inorder-traversal.py)|69.1%|中等|[树](https://leetcode-cn.com/tag/tree)<br>[深度优先搜索](https://leetcode-cn.com/tag/depth-first-search)<br>[数组](https://leetcode-cn.com/tag/array)|
 |104|[二叉树的最大深度](Problemset/maximum-depth-of-binary-tree/README.md)|[Python3](Problemset/maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.py)|75.7%|简单|[树](https://leetcode-cn.com/tag/tree)<br>[深度优先搜索](https://leetcode-cn.com/tag/depth-first-search)<br>[递归](https://leetcode-cn.com/tag/recursion)|
 |103|[二叉树的锯齿形层序遍历](Problemset/binary-tree-zigzag-level-order-traversal/README.md)|[Python3](Problemset/binary-tree-zigzag-level-order-traversal/binary-tree-zigzag-level-order-traversal.py)|57.0%|中等|[栈](https://leetcode-cn.com/tag/stack)<br>[树](https://leetcode-cn.com/tag/tree)<br>[广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search)|
-|102|[二叉树的层序遍历](Problemset/binary-tree-level-order-traversal/README.md)|[Python3](Problemset/binary-tree-level-order-traversal/binary-tree-level-order-traversal.py)|64.0%|中等|[树](https://leetcode-cn.com/tag/tree)<br>[广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search)|
+|102|[二叉树的层序遍历](Problemset/binary-tree-level-order-traversal/README.md)|[Python3](Problemset/binary-tree-level-order-traversal/binary-tree-level-order-traversal.py)|64.1%|中等|[树](https://leetcode-cn.com/tag/tree)<br>[广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search)|
 |101|[对称二叉树](Problemset/symmetric-tree/README.md)|[Python3](Problemset/symmetric-tree/symmetric-tree.py)|53.5%|简单|[树](https://leetcode-cn.com/tag/tree)<br>[深度优先搜索](https://leetcode-cn.com/tag/depth-first-search)<br>[广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search)|
 |100|[相同的树](Problemset/same-tree/README.md)|[Python3](Problemset/same-tree/same-tree.py)|60.3%|简单|[树](https://leetcode-cn.com/tag/tree)<br>[深度优先搜索](https://leetcode-cn.com/tag/depth-first-search)|
 |94|[二叉树的中序遍历](Problemset/binary-tree-inorder-traversal/README.md)|[Python3](Problemset/binary-tree-inorder-traversal/binary-tree-inorder-traversal.py)|74.7%|中等|[栈](https://leetcode-cn.com/tag/stack)<br>[树](https://leetcode-cn.com/tag/tree)<br>[哈希表](https://leetcode-cn.com/tag/hash-table)|
@@ -173,8 +173,11 @@
 |86|[分隔链表](Problemset/partition-list/README.md)|[Python3](Problemset/partition-list/partition-list.py)|62.4%|中等|[链表](https://leetcode-cn.com/tag/linked-list)<br>[双指针](https://leetcode-cn.com/tag/two-pointers)|
 |83|[删除排序链表中的重复元素](Problemset/remove-duplicates-from-sorted-list/README.md)|[Python3](Problemset/remove-duplicates-from-sorted-list/remove-duplicates-from-sorted-list.py)|52.0%|简单|[链表](https://leetcode-cn.com/tag/linked-list)|
 |82|[删除排序链表中的重复元素 II](Problemset/remove-duplicates-from-sorted-list-ii/README.md)|[Python3](Problemset/remove-duplicates-from-sorted-list-ii/remove-duplicates-from-sorted-list-ii.py)|50.2%|中等|[链表](https://leetcode-cn.com/tag/linked-list)|
+|79|[单词搜索](Problemset/word-search/README.md)|[Python3](Problemset/word-search/word-search.py)|44.1%|中等|[数组](https://leetcode-cn.com/tag/array)<br>[回溯算法](https://leetcode-cn.com/tag/backtracking)|
+|78|[子集](Problemset/subsets/README.md)|[Python3](Problemset/subsets/subsets.py)|79.5%|中等|[位运算](https://leetcode-cn.com/tag/bit-manipulation)<br>[数组](https://leetcode-cn.com/tag/array)<br>[回溯算法](https://leetcode-cn.com/tag/backtracking)|
+|77|[组合](Problemset/combinations/README.md)|[Python3](Problemset/combinations/combinations.py)|76.4%|中等|[回溯算法](https://leetcode-cn.com/tag/backtracking)|
 |76|[最小覆盖子串](Problemset/minimum-window-substring/README.md)|[Python3](Problemset/minimum-window-substring/minimum-window-substring.py)|40.6%|困难|[哈希表](https://leetcode-cn.com/tag/hash-table)<br>[双指针](https://leetcode-cn.com/tag/two-pointers)<br>[字符串](https://leetcode-cn.com/tag/string)<br>[None](https://leetcode-cn.com/tag/sliding-window)|
-|72|[编辑距离](Problemset/edit-distance/README.md)|[Python3](Problemset/edit-distance/edit-distance.py)|60.3%|困难|[字符串](https://leetcode-cn.com/tag/string)<br>[动态规划](https://leetcode-cn.com/tag/dynamic-programming)|
+|72|[编辑距离](Problemset/edit-distance/README.md)|[Python3](Problemset/edit-distance/edit-distance.py)|60.4%|困难|[字符串](https://leetcode-cn.com/tag/string)<br>[动态规划](https://leetcode-cn.com/tag/dynamic-programming)|
 |70|[爬楼梯](Problemset/climbing-stairs/README.md)|[Python3](Problemset/climbing-stairs/climbing-stairs.py)|51.4%|简单|[动态规划](https://leetcode-cn.com/tag/dynamic-programming)|
 |69|[x 的平方根](Problemset/sqrtx/README.md)|[Python3](Problemset/sqrtx/sqrtx.py)|39.2%|简单|[数学](https://leetcode-cn.com/tag/math)<br>[二分查找](https://leetcode-cn.com/tag/binary-search)|
 |67|[二进制求和](Problemset/add-binary/README.md)|[Python3](Problemset/add-binary/add-binary.py)|54.4%|简单|[数学](https://leetcode-cn.com/tag/math)<br>[字符串](https://leetcode-cn.com/tag/string)|
@@ -184,7 +187,8 @@
 |53|[最大子序和](Problemset/maximum-subarray/README.md)|[Python3](Problemset/maximum-subarray/maximum-subarray.py)|53.2%|简单|[数组](https://leetcode-cn.com/tag/array)<br>[分治算法](https://leetcode-cn.com/tag/divide-and-conquer)<br>[动态规划](https://leetcode-cn.com/tag/dynamic-programming)|
 |51|[N 皇后](Problemset/n-queens/README.md)|[Python3](Problemset/n-queens/n-queens.py)|73.6%|困难|[回溯算法](https://leetcode-cn.com/tag/backtracking)|
 |46|[全排列](Problemset/permutations/README.md)|[Python3](Problemset/permutations/permutations.py)|77.5%|中等|[回溯算法](https://leetcode-cn.com/tag/backtracking)|
-|39|[组合总和](Problemset/combination-sum/README.md)|[Python3](Problemset/combination-sum/combination-sum.py)|72.0%|中等|[数组](https://leetcode-cn.com/tag/array)<br>[回溯算法](https://leetcode-cn.com/tag/backtracking)|
+|40|[组合总和 II](Problemset/combination-sum-ii/README.md)|[Python3](Problemset/combination-sum-ii/combination-sum-ii.py)|64.1%|中等|[数组](https://leetcode-cn.com/tag/array)<br>[回溯算法](https://leetcode-cn.com/tag/backtracking)|
+|39|[组合总和](Problemset/combination-sum/README.md)|[Python3](Problemset/combination-sum/combination-sum.py)<br>[Python3](Problemset/combination-sum/combination-sum.py)|72.0%|中等|[数组](https://leetcode-cn.com/tag/array)<br>[回溯算法](https://leetcode-cn.com/tag/backtracking)|
 |38|[外观数列](Problemset/count-and-say/README.md)|[Python3](Problemset/count-and-say/count-and-say.py)|57.3%|简单|[字符串](https://leetcode-cn.com/tag/string)|
 |35|[搜索插入位置](Problemset/search-insert-position/README.md)|[Python3](Problemset/search-insert-position/search-insert-position.py)|47.0%|简单|[数组](https://leetcode-cn.com/tag/array)<br>[二分查找](https://leetcode-cn.com/tag/binary-search)|
 |28|[实现 strStr()](Problemset/implement-strstr/README.md)|[Python3](Problemset/implement-strstr/implement-strstr.py)|39.7%|简单|[双指针](https://leetcode-cn.com/tag/two-pointers)<br>[字符串](https://leetcode-cn.com/tag/string)|
