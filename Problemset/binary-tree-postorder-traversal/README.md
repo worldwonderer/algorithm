@@ -29,4 +29,4 @@
 ## 相似题目
 
 - [二叉树的中序遍历](../binary-tree-inorder-traversal/README.md)
-- [N叉树的后序遍历](../n-ary-tree-postorder-traversal/README.md)
+- [N 叉树的后序遍历](../n-ary-tree-postorder-traversal/README.md)

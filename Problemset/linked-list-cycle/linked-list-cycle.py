@@ -1,9 +1,9 @@
 
 # @Title: 环形链表 (Linked List Cycle)
 # @Author: 18015528893
-# @Date: 2021-02-03 11:34:36
+# @Date: 2021-02-12 18:00:15
 # @Runtime: 64 ms
-# @Memory: 17.8 MB
+# @Memory: 18.1 MB
 
 # Definition for singly-linked list.
 # class ListNode:
@@ -13,17 +13,13 @@
 
 class Solution:
     def hasCycle(self, head: ListNode) -> bool:
-        fast = head
-        slow = head
-        while fast and fast.next:
-            fast = fast.next.next
-            slow = slow.next
-            if fast == slow:
+        if head is None:
+            return False
+
+        f = s = head
+        while f and f.next:
+            f = f.next.next
+            s = s.next
+            if f == s:
                 return True
         return False
-
-
-if __name__ == '__main__':
-    s = Solution()
-    s.hasCycle(None)
-

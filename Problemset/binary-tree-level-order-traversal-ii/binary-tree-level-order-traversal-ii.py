@@ -1,9 +1,9 @@
 
 # @Title: 二叉树的层序遍历 II (Binary Tree Level Order Traversal II)
 # @Author: 18015528893
-# @Date: 2019-10-24 23:31:04
-# @Runtime: 48 ms
-# @Memory: 13.7 MB
+# @Date: 2021-02-14 15:55:38
+# @Runtime: 44 ms
+# @Memory: 15.1 MB
 
 # Definition for a binary tree node.
 # class TreeNode:
@@ -11,25 +11,25 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
+from collections import deque
+
 
 class Solution:
     def levelOrderBottom(self, root: TreeNode) -> List[List[int]]:
         if root is None:
-            return list()
-        ret = list()
-        queue = list()
-        queue.append(root)
-        while queue:
-            size = len(queue)
-            row = list()
-            while size > 0:
-                n = queue.pop(0)
-                size -= 1
-                row.append(n.val)
-                
-                if n.left is not None:
-                    queue.append(n.left)
-                if n.right is not None:
-                    queue.append(n.right)
-            ret.append(row)
-        return ret[::-1]
+            return []
+        q = deque()
+        q.append(root)
+        res = []
+        while q:
+            floor = []
+            size = len(q)
+            for _ in range(size):
+                node = q.popleft()
+                floor.append(node.val)
+                if node.left:
+                    q.append(node.left)
+                if node.right:
+                    q.append(node.right)
+            res.append(floor)
+        return res[::-1]

@@ -1,9 +1,9 @@
 
 # @Title: 翻转二叉树 (Invert Binary Tree)
 # @Author: 18015528893
-# @Date: 2021-02-05 23:13:32
-# @Runtime: 40 ms
-# @Memory: 14.7 MB
+# @Date: 2021-02-14 11:53:27
+# @Runtime: 44 ms
+# @Memory: 14.9 MB
 
 # Definition for a binary tree node.
 # class TreeNode:
@@ -13,14 +13,13 @@
 #         self.right = right
 class Solution:
     def invertTree(self, root: TreeNode) -> TreeNode:
-        def helper(root):
+        def dfs(root):
             if root is None:
                 return
-            root.right, root.left = root.left, root.right
-            helper(root.left)
-            helper(root.right)
-
-        helper(root)
+            root.left, root.right = root.right, root.left
+            dfs(root.left)
+            dfs(root.right)
+        
+        dfs(root)
         return root
-
 

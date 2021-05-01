@@ -1,8 +1,8 @@
 
 # @Title: 二叉树的锯齿形层序遍历 (Binary Tree Zigzag Level Order Traversal)
 # @Author: 18015528893
-# @Date: 2021-02-05 23:03:12
-# @Runtime: 40 ms
+# @Date: 2021-02-14 11:51:49
+# @Runtime: 32 ms
 # @Memory: 15.1 MB
 
 # Definition for a binary tree node.
@@ -18,22 +18,25 @@ class Solution:
     def zigzagLevelOrder(self, root: TreeNode) -> List[List[int]]:
         if root is None:
             return []
+        result = []
         q = deque()
         q.append(root)
-        res = []
+        l2r = True
         while q:
             size = len(q)
-            floor = []
-            for _ in range(size):
-                node = q.popleft()
-                if node:
-                    floor.append(node.val)
+            floor = [0] * size
+            for i in range(size):
+                node = q.popleft() 
+                if l2r:
+                    index = i
+                else:
+                    index = size - 1 - i
+                floor[index] = node.val
+                if node.left:
                     q.append(node.left)
+                if node.right:
                     q.append(node.right)
-            if floor:
-                if len(res) % 2 == 1:
-                    floor = floor[::-1]
-                res.append(floor)
-        return res
-
+            l2r = not l2r
+            result.append(floor)
+        return result
 

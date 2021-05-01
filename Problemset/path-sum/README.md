@@ -52,6 +52,6 @@
 
 - [路径总和 II](../path-sum-ii/README.md)
 - [二叉树中的最大路径和](../binary-tree-maximum-path-sum/README.md)
-- [求根到叶子节点数字之和](../sum-root-to-leaf-numbers/README.md)
+- [求根节点到叶节点数字之和](../sum-root-to-leaf-numbers/README.md)
 - [路径总和 III](../path-sum-iii/README.md)
-- [路径和 IV](../path-sum-iv/README.md)
+- [路径总和 IV](../path-sum-iv/README.md)

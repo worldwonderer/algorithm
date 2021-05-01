@@ -1,29 +1,31 @@
 
 # @Title: 外观数列 (Count and Say)
 # @Author: 18015528893
-# @Date: 2019-10-22 12:57:48
+# @Date: 2021-02-22 00:00:40
 # @Runtime: 48 ms
-# @Memory: 13.6 MB
+# @Memory: 15.1 MB
 
 class Solution:
     def countAndSay(self, n: int) -> str:
         if n == 1:
             return '1'
-        ret = ''
+
+        ans = ""
         count = 1
-        last_num = None
-        for num in self.countAndSay(n-1):
-            if last_num is None:
-                last_num = num
+        last = None
+        for num_str in self.countAndSay(n-1):
+            if last is None:
+                last = num_str
             else:
-                if last_num == num:
+                if last == num_str:
                     count += 1
                 else:
-                    ret += str(count)
-                    ret += last_num
-                    last_num = num
+                    ans += str(count)
+                    ans += last
+                    last = num_str
                     count = 1
         if count != 0:
-            ret += str(count)
-            ret += last_num
-        return ret
+            ans += str(count)
+            ans += last
+        return ans
+

@@ -1,24 +1,31 @@
 
 # @Title: 对称二叉树 (Symmetric Tree)
 # @Author: 18015528893
-# @Date: 2019-10-24 23:17:19
+# @Date: 2021-02-14 21:30:57
 # @Runtime: 44 ms
-# @Memory: 13.6 MB
+# @Memory: 15.1 MB
 
 # Definition for a binary tree node.
 # class TreeNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
-
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
 class Solution:
     def isSymmetric(self, root: TreeNode) -> bool:
-        return self.isMirror(root, root)
-    
-    def isMirror(self, t1, t2):
-        if t1 is None and t2 is None:
+        if root is None:
             return True
-        if t1 is None or t2 is None:
-            return False
-        return (t1.val == t2.val) and self.isMirror(t1.right, t2.left) and self.isMirror(t1.left, t2.right)
+            
+        def dfs(p, q):
+            if p is None and q is None:
+                return True
+            if p is None:
+                return False
+            if q is None:
+                return False
+            return p.val == q.val and dfs(p.left, q.right) and dfs(p.right, q.left)
+
+        return dfs(root.left, root.right)
+        
+        
+

@@ -41,5 +41,5 @@
 
 - [路径总和](../path-sum/README.md)
 - [路径总和 II](../path-sum-ii/README.md)
-- [路径和 IV](../path-sum-iv/README.md)
+- [路径总和 IV](../path-sum-iv/README.md)
 - [最长同值路径](../longest-univalue-path/README.md)

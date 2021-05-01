@@ -1,8 +1,8 @@
 
 # @Title: 删除排序链表中的重复元素 II (Remove Duplicates from Sorted List II)
 # @Author: 18015528893
-# @Date: 2021-02-03 17:17:29
-# @Runtime: 48 ms
+# @Date: 2021-02-12 21:18:52
+# @Runtime: 56 ms
 # @Memory: 14.9 MB
 
 # Definition for singly-linked list.
@@ -12,9 +12,11 @@
 #         self.next = next
 class Solution:
     def deleteDuplicates(self, head: ListNode) -> ListNode:
+        if head is None or head.next is None:
+            return head
         dummy = ListNode(next=head)
         cur = dummy
-        while cur.next and cur.next.next:
+        while cur and cur.next and cur.next.next:
             if cur.next.val == cur.next.next.val:
                 tmp = cur.next
                 val = tmp.val
@@ -24,5 +26,4 @@ class Solution:
             else:
                 cur = cur.next
         return dummy.next
-
 

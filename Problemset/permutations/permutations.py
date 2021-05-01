@@ -1,28 +1,28 @@
 
 # @Title: 全排列 (Permutations)
 # @Author: 18015528893
-# @Date: 2021-01-28 22:14:00
-# @Runtime: 56 ms
-# @Memory: 14.9 MB
+# @Date: 2021-02-18 17:20:26
+# @Runtime: 32 ms
+# @Memory: 15.1 MB
 
 class Solution:
-
     def permute(self, nums: List[int]) -> List[List[int]]:
-        res = []
+        result = []
 
-        def backtrack(nums, track):
-            if len(track) == len(nums):
-                res.append(track.copy())
+        def backtrack(path):
+            if len(path) == len(nums):
+                result.append(list(path))
                 return
 
-            for num in nums:
-                if num in track:
+            for i in range(len(nums)):
+                if nums[i] is None:
                     continue
-                track.append(num)
-                backtrack(nums, track)
-                track.pop()
+                path.append(nums[i])
+                nums[i] = None
+                backtrack(path)
+                nums[i] = path.pop()
 
-        track = []
-        backtrack(nums, track)
-        return res
+        backtrack([])
+        return result
+
 

@@ -1,8 +1,8 @@
 
 # @Title: 删除链表的节点 (删除链表的节点 LCOF)
 # @Author: 18015528893
-# @Date: 2021-01-17 19:04:21
-# @Runtime: 44 ms
+# @Date: 2021-02-13 15:46:55
+# @Runtime: 48 ms
 # @Memory: 15.3 MB
 
 # Definition for singly-linked list.
@@ -12,14 +12,15 @@
 #         self.next = None
 class Solution:
     def deleteNode(self, head: ListNode, val: int) -> ListNode:
-        dummy_node = ListNode(0)
-        dummy_node.next = head
-        if head.val == val:
-            return head.next
-        while head and head.next:
-            if head.next.val == val:
-                head.next = head.next.next
-                break
-            head = head.next
-        return dummy_node.next
+        dummy = ListNode(0)
+        dummy.next = head
+        pre = dummy
+        cur = head
+        while cur:
+            if cur.val == val:
+                pre.next = pre.next.next
+            else:
+                pre = pre.next
+            cur = pre.next
+        return dummy.next
 

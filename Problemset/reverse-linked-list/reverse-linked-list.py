@@ -1,9 +1,9 @@
 
 # @Title: 反转链表 (Reverse Linked List)
 # @Author: 18015528893
-# @Date: 2021-02-02 22:14:39
-# @Runtime: 48 ms
-# @Memory: 19.5 MB
+# @Date: 2021-02-18 20:14:53
+# @Runtime: 36 ms
+# @Memory: 15.5 MB
 
 # Definition for singly-linked list.
 # class ListNode:
@@ -12,22 +12,12 @@
 #         self.next = next
 class Solution:
     def reverseList(self, head: ListNode) -> ListNode:
-        if head is None:
-            return head
         pre = None
         cur = head
         while cur:
-            next_tmp = cur.next
+            tmp = cur.next
             cur.next = pre
             pre = cur
-            cur = next_tmp
+            cur = tmp
         return pre
-
-    def reverseList(self, head: ListNode) -> ListNode:
-        if head is None or head.next is None:
-            return head
-        last = self.reverseList(head.next)
-        head.next.next = head
-        head.next = None
-        return last
 

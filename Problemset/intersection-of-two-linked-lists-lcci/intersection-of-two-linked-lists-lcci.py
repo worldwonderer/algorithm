@@ -1,9 +1,9 @@
 
 # @Title: 链表相交 (Intersection of Two Linked Lists LCCI)
 # @Author: 18015528893
-# @Date: 2021-02-04 23:12:52
-# @Runtime: 184 ms
-# @Memory: 29.7 MB
+# @Date: 2021-02-13 15:29:54
+# @Runtime: 168 ms
+# @Memory: 29.6 MB
 
 # Definition for singly-linked list.
 # class ListNode:
@@ -19,5 +19,3 @@ class Solution:
             p = p.next if p else headB
             q = q.next if q else headA
         return p
-        
-

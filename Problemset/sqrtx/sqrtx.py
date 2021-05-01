@@ -1,18 +1,23 @@
 
 # @Title: x 的平方根 (Sqrt(x))
 # @Author: 18015528893
-# @Date: 2019-10-23 00:09:44
-# @Runtime: 40 ms
-# @Memory: 13.5 MB
+# @Date: 2021-02-23 23:03:23
+# @Runtime: 44 ms
+# @Memory: 14.5 MB
 
 class Solution:
     def mySqrt(self, x: int) -> int:
-        lo = 0
-        hi = x
-        while lo < hi:
-            mid = lo + (hi - lo + 1) // 2
-            if mid * mid > x:
-                hi = mid-1
+        if x == 0:
+            return 0
+        if x <= 3:
+            return 1
+        
+        l = 2
+        r = x // 2 + 1
+        while l < r:
+            mid = l + (r - l + 1) // 2
+            if mid * mid <= x:
+                l = mid
             else:
-                lo = mid
-        return lo
+                r = mid - 1
+        return l

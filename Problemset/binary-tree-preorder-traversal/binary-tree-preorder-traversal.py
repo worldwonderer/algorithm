@@ -1,9 +1,9 @@
 
 # @Title: 二叉树的前序遍历 (Binary Tree Preorder Traversal)
 # @Author: 18015528893
-# @Date: 2021-02-08 11:44:46
-# @Runtime: 36 ms
-# @Memory: 14.9 MB
+# @Date: 2021-02-14 11:30:09
+# @Runtime: 40 ms
+# @Memory: 14.8 MB
 
 # Definition for a binary tree node.
 # class TreeNode:
@@ -15,16 +15,14 @@ class Solution:
     def preorderTraversal(self, root: TreeNode) -> List[int]:
         if root is None:
             return []
-        res = []
-
-        def helper(root):
-            if root is None:
-                return
-            res.append(root.val)
-            helper(root.left)
-            helper(root.right)
-
-        helper(root)
-        return res
-
+        stack = [root]
+        result = []
+        while stack:
+            node = stack.pop()
+            result.append(node.val)
+            if node.right:
+                stack.append(node.right)
+            if node.left:
+                stack.append(node.left)
+        return result
 

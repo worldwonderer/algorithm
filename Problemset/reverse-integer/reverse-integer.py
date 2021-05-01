@@ -7,21 +7,29 @@
 
 class Solution:
     def reverse(self, x: int) -> int:
-        s = ''
-        sign = True
-        if x < 0:
-            x = -x
-            sign = False
-        while True:
-            s += str(x % 10)
-            x = x // 10
-            if x == 0:
-                break
-        if sign is False:
-            s = -int(s)
-        else:
-            s = int(s)
-        if s > 2**31-1 or s < -2**31:
-            return 0
-        return s
-        
+        max_value = (1 << 31) - 1
+        min_value = -1 << 31
+        ans = 0
+        while x != 0:
+            if x >= 0:
+                p = x % 10
+            else:
+                p = x % 10 - 10
+            if x > 0 and ans * 10 + p > max_value:
+                return 0
+            if x < 0 and ans * 10 + p < min_value:
+                return 0
+            ans *= 10
+            ans += p
+            x //= 10
+            if x < 0:
+                x += 1
+            print(p, ans, x)
+        return ans
+
+
+if __name__ == '__main__':
+    s = Solution()
+    print(s.reverse(-321))
+
+

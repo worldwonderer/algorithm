@@ -1,32 +1,16 @@
 
 # @Title: N 皇后 (N-Queens)
 # @Author: 18015528893
-# @Date: 2021-01-28 23:44:24
+# @Date: 2021-02-22 20:55:20
 # @Runtime: 120 ms
-# @Memory: 15.5 MB
-
-from typing import List
-
+# @Memory: 15.4 MB
 
 class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:
-        res = []
+        ans = []
+        board = [['.']*n for _ in range(n)]
 
-        def backtrack(board, row):
-            if row == len(board):
-                res.append([''.join(line) for line in board])
-                return
-
-            i = len(board[row])
-            for col in range(i):
-                if not is_valid(board, row, col):
-                    continue
-
-                board[row][col] = 'Q'
-                backtrack(board, row+1)
-                board[row][col] = '.'
-
-        def is_valid(board, row, col):
+        def is_valid(row, col):
             n = len(board)
             for i in range(n):
                 if board[i][col] == 'Q':
@@ -41,8 +25,19 @@ class Solution:
                     return False
 
             return True
+        
+        def backtrack(i):
+            if i == n:
+                ans.append(["".join(line) for line in board])
+                return 
 
-        board = [['.'] * n for _ in range(n)]
-        backtrack(board, 0)
-        return res
+            for j in range(n):
+                if not is_valid(i, j):
+                    continue
+                board[i][j] = 'Q'
+                backtrack(i+1)
+                board[i][j] = '.'
+            
+        backtrack(0)
+        return ans
 

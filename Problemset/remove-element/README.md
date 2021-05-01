@@ -68,6 +68,6 @@ for (int i = 0; i < len; i++) {
 
 ## 相似题目
 
-- [删除排序数组中的重复项](../remove-duplicates-from-sorted-array/README.md)
+- [删除有序数组中的重复项](../remove-duplicates-from-sorted-array/README.md)
 - [移除链表元素](../remove-linked-list-elements/README.md)
 - [移动零](../move-zeroes/README.md)

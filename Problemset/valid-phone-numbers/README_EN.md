@@ -5,7 +5,7 @@
 
 ## Description
 
-<p>Given a text file <code>file.txt</code> that contains list of phone numbers (one per line), write a one liner bash script to print all valid phone numbers.</p>
+<p>Given a text file <code>file.txt</code> that contains a list of phone numbers (one per line), write a one-liner bash script to print all valid phone numbers.</p>
 
 <p>You may assume that a valid phone number must appear in one of the following two formats: (xxx) xxx-xxxx or xxx-xxx-xxxx. (x means a digit)</p>
 

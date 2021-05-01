@@ -1,41 +1,42 @@
 
 # @Title: 括号生成 (Generate Parentheses)
 # @Author: 18015528893
-# @Date: 2021-02-08 16:05:35
-# @Runtime: 56 ms
-# @Memory: 15.3 MB
+# @Date: 2021-02-18 11:30:44
+# @Runtime: 52 ms
+# @Memory: 15.1 MB
 
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
-        result = []
+        ans = []
 
-        def backtrack(track, stack):
-            if len(track) == 2 * n:
-                if len(stack) == 0:
-                    result.append(''.join(track))
+        def backtrack(path, stack):
+            if len(path) == 2 * n and len(stack) == 0:
+                ans.append(''.join(path))
+
+            if len(path) >= 2 * n:
                 return
 
-            if len(stack) == 0:
-                choices = ['(']
-            elif len(stack) >= n:
-                choices = [')']
+            if len(stack) > n:
+                choices = [")"]
+            elif len(stack) == 0:
+                choices = ["("]
             else:
-                choices = ['(', ')']
-            for choice in choices:
-                if choice == ')':
-                    stack.pop()
-                else:
-                    stack.append('(')
-                track.append(choice)
-                backtrack(track, stack)
-                track.pop()
-                if choice == ')':
-                    stack.append('(')
-                else:
-                    stack.pop()
+                choices = ["(", ")"]
 
-        if n == 0:
-            return []
+            for choice in choices:
+                path.append(choice)
+                if choice == '(':
+                    stack.append('(')
+                else:
+                    stack.pop()
+                backtrack(path, stack)
+                path.pop()
+                if choice == '(':
+                    stack.pop()
+                else:
+                    stack.append('(')
+
         backtrack([], [])
-        return result
+        return ans
+
 

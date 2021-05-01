@@ -67,4 +67,4 @@
 
 - [二叉树的中序遍历](../binary-tree-inorder-traversal/README.md)
 - [验证前序遍历序列二叉搜索树](../verify-preorder-sequence-in-binary-search-tree/README.md)
-- [N叉树的前序遍历](../n-ary-tree-preorder-traversal/README.md)
+- [N 叉树的前序遍历](../n-ary-tree-preorder-traversal/README.md)

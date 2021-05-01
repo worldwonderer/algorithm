@@ -72,6 +72,6 @@
 - [二叉搜索树迭代器](../binary-search-tree-iterator/README.md)
 - [二叉搜索树中第K小的元素](../kth-smallest-element-in-a-bst/README.md)
 - [最接近的二叉搜索树值 II](../closest-binary-search-tree-value-ii/README.md)
-- [二叉搜索树中的顺序后继](../inorder-successor-in-bst/README.md)
+- [二叉搜索树中的中序后继](../inorder-successor-in-bst/README.md)
 - [将二叉搜索树转化为排序的双向链表](../convert-binary-search-tree-to-sorted-doubly-linked-list/README.md)
 - [二叉搜索树节点最小距离](../minimum-distance-between-bst-nodes/README.md)

@@ -1,8 +1,8 @@
 
 # @Title: 树的子结构 (树的子结构  LCOF)
 # @Author: 18015528893
-# @Date: 2021-01-20 20:57:30
-# @Runtime: 136 ms
+# @Date: 2021-02-14 22:12:00
+# @Runtime: 128 ms
 # @Memory: 19.1 MB
 
 # Definition for a binary tree node.
@@ -14,13 +14,15 @@
 
 class Solution:
     def isSubStructure(self, A: TreeNode, B: TreeNode) -> bool:
-        def recur(t, s):
-            if s is None:
+        if B is None:
+            return False
+        if A is None:
+            return False
+        def dfs(p, q):
+            if q is None:
                 return True
-            if t is None:
+            if p is None:
                 return False
-            return t.val == s.val and recur(t.left, s.left) and recur(t.right, s.right)
-
-        return bool(A and B) and (recur(A, B) or self.isSubStructure(A.left, B) or self.isSubStructure(A.right, B))
-    
+            return p.val == q.val and dfs(p.left, q.left) and dfs(p.right, q.right)
+        return dfs(A, B) or self.isSubStructure(A.left, B) or self.isSubStructure(A.right, B)
 

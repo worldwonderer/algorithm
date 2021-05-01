@@ -1,5 +1,5 @@
 
-# @Title: 求根到叶子节点数字之和 (Sum Root to Leaf Numbers)
+# @Title: 求根节点到叶节点数字之和 (Sum Root to Leaf Numbers)
 # @Author: 18015528893
 # @Date: 2021-02-07 23:11:26
 # @Runtime: 44 ms

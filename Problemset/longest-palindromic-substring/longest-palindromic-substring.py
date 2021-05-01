@@ -1,28 +1,40 @@
 
 # @Title: 最长回文子串 (Longest Palindromic Substring)
 # @Author: 18015528893
-# @Date: 2021-01-08 23:40:48
-# @Runtime: 8376 ms
-# @Memory: 22.4 MB
+# @Date: 2021-02-18 14:28:08
+# @Runtime: 1000 ms
+# @Memory: 15 MB
 
 class Solution:
-
     def longestPalindrome(self, s: str) -> str:
-        n = len(s)
-        if n < 2:
+        if len(s) < 2:
             return s
-        dp = [[True] * n for _ in range(n)]
-        res = s[0]
-        for length in range(1, n):
-            for left in range(n):
-                right = left + length
-                if right >= n:
-                    break
-                elif length == 1:
-                    dp[left][right] = (s[left] == s[right])
+
+        def expand(l, r):
+            while l < r:
+                if l >= 0 and r < len(s) and s[l] == s[r]:
+                    l -= 1
+                    r += 1
                 else:
-                    dp[left][right] = dp[left + 1][right - 1] and (s[left] == s[right])
-                if dp[left][right] and length + 1 > len(res):
-                    res = s[left: right + 1]
-        return res
+                    break
+            return s[l+1:r]
+
+
+        ans = ''
+        for i in range(len(s)):
+            # 奇数
+            l = i - 1
+            r = i + 1
+            k = expand(l, r)
+            if len(k) > len(ans):
+                ans = k
+
+            # 偶数
+            l = i - 1
+            r = i + 1 - 1
+            k = expand(l, r)
+            if len(k) > len(ans):
+                ans = k
+        return ans
+
 

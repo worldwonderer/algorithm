@@ -1,13 +1,15 @@
 
 # @Title: 电话号码的字母组合 (Letter Combinations of a Phone Number)
 # @Author: 18015528893
-# @Date: 2021-02-08 15:45:29
-# @Runtime: 32 ms
-# @Memory: 15.1 MB
+# @Date: 2021-02-18 10:56:55
+# @Runtime: 44 ms
+# @Memory: 15 MB
 
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
-        result = []
+        if digits == "":
+            return []
+
         m = {
             '2': 'abc',
             '3': 'def',
@@ -18,20 +20,19 @@ class Solution:
             '8': 'tuv',
             '9': 'wxyz'
         }
-
-        def backtrack(track, i):
-            if len(track) == len(digits):
-                result.append(''.join(track))
+        ans = []
+        def backtrack(path):
+            if len(path) == len(digits):
+                ans.append(''.join(path))
                 return
 
-            choices = m[digits[i]]
-            for choice in choices:
-                track.append(choice)
-                backtrack(track, i+1)
-                track.pop()
+            choices = m[digits[len(path)]]
+            for char in choices:
+                path.append(char)
+                backtrack(path)
+                path.pop()
 
-        if len(digits) == 0:
-            return []
-        backtrack([], 0)
-        return result
+        backtrack([])
+        return ans
+
 

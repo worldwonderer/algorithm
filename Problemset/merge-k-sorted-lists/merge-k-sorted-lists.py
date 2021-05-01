@@ -1,9 +1,9 @@
 
 # @Title: 合并K个升序链表 (Merge k Sorted Lists)
 # @Author: 18015528893
-# @Date: 2021-02-03 14:44:00
-# @Runtime: 84 ms
-# @Memory: 18.4 MB
+# @Date: 2021-02-18 11:34:32
+# @Runtime: 80 ms
+# @Memory: 17.6 MB
 
 # Definition for singly-linked list.
 # class ListNode:
@@ -15,20 +15,19 @@ import heapq
 
 class Solution:
     def mergeKLists(self, lists: List[ListNode]) -> ListNode:
+        dummy = ListNode()
+        p = dummy
         h = []
-        for i, node in enumerate(lists):
-            if node:
-                heapq.heappush(h, (node.val, i, node))
-
-        dummy = ListNode(0)
-        cur = dummy
+        for i, head in enumerate(lists):
+            if head:
+                heapq.heappush(h, (head.val, i, head))
 
         while h:
-            min_val, i, min_node = heapq.heappop(h)
-            cur.next = ListNode(min_val)
-            cur = cur.next
-            if min_node.next:
-                heapq.heappush(h, (min_node.next.val, i, min_node.next))
+            _, i, node = heapq.heappop(h)
+            p.next = node
+            p = p.next
+            if node.next:
+                heapq.heappush(h, (node.next.val, i, node.next))
 
         return dummy.next
 

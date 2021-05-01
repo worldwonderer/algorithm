@@ -1,9 +1,9 @@
 
 # @Title: 排序链表 (Sort List)
 # @Author: 18015528893
-# @Date: 2021-02-04 18:16:19
-# @Runtime: 516 ms
-# @Memory: 30.1 MB
+# @Date: 2021-02-13 11:30:38
+# @Runtime: 520 ms
+# @Memory: 29.9 MB
 
 # Definition for singly-linked list.
 # class ListNode:
@@ -16,55 +16,54 @@ class Solution:
             return head
 
         dummy = ListNode(next=head)
-        length = self.get_length(head)
+
+        def get_length(head):
+            p = head
+            length = 0
+            while p:
+                p = p.next
+                length += 1
+            return length
+
+        def cut(head, n):
+            p = head
+            while p and n - 1 > 0:
+                p = p.next
+                n -= 1
+            if p is None:
+                return
+            new_head = p.next
+            p.next = None
+            return new_head
+
+        def merge(l1, l2):
+            dummy = ListNode(0)
+            p = dummy
+            while l1 and l2:
+                if l1.val < l2.val:
+                    p.next = l1
+                    l1 = l1.next
+                else:
+                    p.next = l2
+                    l2 = l2.next
+                p = p.next
+            if l1:
+                p.next = l1
+            if l2:
+                p.next = l2
+            return dummy.next
+
+        length = get_length(head)
         i = 1
         while i < length:
-            cur = dummy.next
             tail = dummy
+            cur = dummy.next
             while cur:
                 left = cur
-                right = self.cut(left, i)
-                cur = self.cut(right, i)
-                tail.next = self.merge(left, right)
+                right = cut(left, i)
+                cur = cut(right, i)
+                tail.next = merge(left, right)
                 while tail.next:
                     tail = tail.next
             i *= 2
         return dummy.next
-
-    def get_length(self, head):
-        length = 0
-        p = head
-        while p:
-            length += 1
-            p = p.next
-        return length
-
-    def merge(self, l1, l2):
-        dummy = ListNode(0)
-        p = dummy
-        while l1 and l2:
-            if l1.val <= l2.val:
-                p.next = l1
-                l1 = l1.next
-            else:
-                p.next = l2
-                l2 = l2.next
-            p = p.next
-        if l1:
-            p.next = l1
-        if l2:
-            p.next = l2
-        return dummy.next
-
-    def cut(self, head, n):
-        p = head
-        while n - 1 > 0 and p:
-            p = p.next
-            n -= 1
-        if p is None:
-            return
-        n = p.next
-        p.next = None
-        return n
-
-

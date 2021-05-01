@@ -1,9 +1,9 @@
 
 # @Title: 两两交换链表中的节点 (Swap Nodes in Pairs)
 # @Author: 18015528893
-# @Date: 2021-02-03 15:02:57
+# @Date: 2021-02-21 12:35:04
 # @Runtime: 40 ms
-# @Memory: 14.9 MB
+# @Memory: 14.8 MB
 
 # Definition for singly-linked list.
 # class ListNode:
@@ -14,23 +14,15 @@ class Solution:
     def swapPairs(self, head: ListNode) -> ListNode:
         if head is None:
             return
-        if head.next is None:
-            return head
-        a = head
-        b = head.next.next if head.next else head
+        a = b = head
+        for i in range(2):
+            if b is None:
+                return head
+            b = b.next
 
-        new_head = self.reverse(a, b)
+        new_head = a.next
+        a.next.next = a
         a.next = self.swapPairs(b)
         return new_head
-
-    def reverse(self, a, b):
-        pre = None
-        cur = a
-        while cur != b:
-            next_tmp = cur.next
-            cur.next = pre
-            pre = cur
-            cur = next_tmp
-        return pre
 
 

@@ -1,9 +1,9 @@
 
 # @Title: 链表求和 (Sum Lists LCCI)
 # @Author: 18015528893
-# @Date: 2021-02-04 23:05:37
-# @Runtime: 80 ms
-# @Memory: 15 MB
+# @Date: 2021-02-12 21:23:09
+# @Runtime: 60 ms
+# @Memory: 14.8 MB
 
 # Definition for singly-linked list.
 # class ListNode:
@@ -14,23 +14,23 @@
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
         dummy = ListNode(0)
-        p = dummy
         carry = 0
-        while l1 or l2 or carry != 0:
-            a = l1.val if l1 else 0
-            b = l2.val if l2 else 0
-            total = a + b + carry
-            if total >= 10:
-                total -= 10
-                carry = 1
-            else:
-                carry = 0
+        p = dummy
+        while l1 or l2 or carry == 1:
+            total = 0
             if l1:
+                total += l1.val
                 l1 = l1.next
             if l2:
+                total += l2.val
                 l2 = l2.next
+            if carry == 1:
+                total += 1
+                carry = 0
+            if total >= 10:
+                carry = 1
+                total -= 10
             p.next = ListNode(total)
             p = p.next
         return dummy.next
-
 

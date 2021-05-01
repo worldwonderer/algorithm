@@ -1,29 +1,29 @@
 
 # @Title: 组合总和 II (Combination Sum II)
 # @Author: 18015528893
-# @Date: 2021-02-08 21:10:16
-# @Runtime: 92 ms
-# @Memory: 15 MB
+# @Date: 2021-02-22 00:04:17
+# @Runtime: 116 ms
+# @Memory: 14.8 MB
 
 class Solution:
     def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
-        result = []
+        ans = []
         candidates.sort()
-        def backtrace(path, start):
+
+        def backtrack(path, start):
             s = sum(path)
             if s == target:
-                result.append(list(path))
-                return
-            if s > target:
+                ans.append(list(path))
+            if s >= target:
                 return
 
             for i in range(start, len(candidates)):
-                if i > start and candidates[i-1] == candidates[i]:
+                if i > start and candidates[i] == candidates[i-1]:
                     continue
                 path.append(candidates[i])
-                backtrace(path, i+1)
+                backtrack(path, i+1)
                 path.pop()
-        backtrace([], 0)
-        return result
-
+        
+        backtrack([], 0)
+        return ans
 

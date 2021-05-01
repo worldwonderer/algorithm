@@ -1,8 +1,8 @@
 
 # @Title: 二叉树的右视图 (Binary Tree Right Side View)
 # @Author: 18015528893
-# @Date: 2021-02-07 10:55:53
-# @Runtime: 40 ms
+# @Date: 2021-02-14 17:44:38
+# @Runtime: 44 ms
 # @Memory: 14.9 MB
 
 # Definition for a binary tree node.
@@ -18,21 +18,20 @@ class Solution:
     def rightSideView(self, root: TreeNode) -> List[int]:
         if root is None:
             return []
-
-        res = []
+        result = []
         q = deque()
         q.append(root)
         while q:
             size = len(q)
-            floor = []
+            last = None
             for i in range(size):
                 node = q.popleft()
-                if node:
-                    floor.append(node.val)
+                if i == size - 1:
+                    last = node.val
+                if node.left:
                     q.append(node.left)
+                if node.right:
                     q.append(node.right)
-            if floor:
-                res.append(floor[-1])
-        return res
-
+            result.append(last)
+        return result
 

@@ -5,9 +5,9 @@
 
 ## Description
 
-<p>Given an&nbsp;<code>m x n</code> <code>board</code> and a <code>word</code>, find if the word exists in the grid.</p>
+<p>Given an <code>m x n</code> grid of characters <code>board</code> and a string <code>word</code>, return <code>true</code> <em>if</em> <code>word</code> <em>exists in the grid</em>.</p>
 
-<p>The word can be constructed from letters of sequentially adjacent cells, where &quot;adjacent&quot; cells are horizontally or vertically neighboring. The same letter cell may not be used more than once.</p>
+<p>The word can be constructed from letters of sequentially adjacent cells, where adjacent cells are horizontally or vertically neighboring. The same letter cell may not be used more than once.</p>
 
 <p>&nbsp;</p>
 <p><strong>Example 1:</strong></p>
@@ -37,10 +37,13 @@
 <ul>
 	<li><code>m == board.length</code></li>
 	<li><code>n = board[i].length</code></li>
-	<li><code>1 &lt;= m, n &lt;= 200</code></li>
-	<li><code>1 &lt;= word.length &lt;= 10<sup>3</sup></code></li>
-	<li><code>board</code>&nbsp;and <code>word</code> consists only of lowercase and uppercase English letters.</li>
+	<li><code>1 &lt;= m, n &lt;= 6</code></li>
+	<li><code>1 &lt;= word.length &lt;= 15</code></li>
+	<li><code>board</code> and <code>word</code> consists of only lowercase and uppercase English letters.</li>
 </ul>
+
+<p>&nbsp;</p>
+<p><strong>Follow up:</strong> Could you use search pruning to make your solution faster with a larger <code>board</code>?</p>
 
 
 ## Related Topics

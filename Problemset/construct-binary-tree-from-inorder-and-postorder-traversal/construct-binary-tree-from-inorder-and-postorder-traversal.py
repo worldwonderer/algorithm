@@ -1,8 +1,8 @@
 
 # @Title: 从中序与后序遍历序列构造二叉树 (Construct Binary Tree from Inorder and Postorder Traversal)
 # @Author: 18015528893
-# @Date: 2021-02-08 11:28:23
-# @Runtime: 276 ms
+# @Date: 2021-02-14 21:55:50
+# @Runtime: 232 ms
 # @Memory: 19.2 MB
 
 # Definition for a binary tree node.
@@ -13,32 +13,22 @@
 #         self.right = right
 class Solution:
     def buildTree(self, inorder: List[int], postorder: List[int]) -> TreeNode:
-        def build(inorder, istart, iend, postorder, pstart, pend):
+        def build(pstart, pend, istart, iend):
             if pstart > pend:
                 return
-
+            
             root_val = postorder[pend]
-
+            root = TreeNode(root_val)
+            
             index = istart
             for i in range(istart, iend+1):
-                if root_val == inorder[i]:
+                if inorder[i] == root_val:
                     index = i
                     break
+            left_length = index - istart
 
-            left_size = index - istart
-
-            root = TreeNode(root_val)
-            root.left = build(
-                inorder, istart, index - 1,
-                postorder, pstart, pstart+left_size-1
-            )
-            root.right = build(
-                inorder, index+1, iend,
-                postorder, pstart+left_size, pend-1,
-            )
+            root.left = build(pstart, pstart+left_length-1, istart, index-1)
+            root.right = build(pstart+left_length, pend-1, index+1, iend)
             return root
-
-        return build(inorder, 0, len(inorder)-1, postorder, 0, len(postorder)-1)
-
-
+        return build(0, len(inorder)-1, 0, len(inorder)-1)
 

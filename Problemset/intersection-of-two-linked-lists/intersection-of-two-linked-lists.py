@@ -1,8 +1,8 @@
 
 # @Title: 相交链表 (Intersection of Two Linked Lists)
 # @Author: 18015528893
-# @Date: 2021-02-03 11:58:40
-# @Runtime: 164 ms
+# @Date: 2021-02-13 10:49:57
+# @Runtime: 152 ms
 # @Memory: 29.6 MB
 
 # Definition for singly-linked list.
@@ -13,11 +13,10 @@
 
 class Solution:
     def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:
-        p1 = headA
-        p2 = headB
-        while p1 != p2:
-            p1 = p1.next if p1 else headB
-            p2 = p2.next if p2 else headA
-        return p1
-        
+        p = headA
+        q = headB
+        while p != q:
+            p = p.next if p else headB
+            q = q.next if q else headA
+        return p
 

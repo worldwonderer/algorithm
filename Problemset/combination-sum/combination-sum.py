@@ -1,28 +1,27 @@
 
 # @Title: 组合总和 (Combination Sum)
 # @Author: 18015528893
-# @Date: 2021-02-08 21:12:38
-# @Runtime: 100 ms
-# @Memory: 15 MB
+# @Date: 2021-02-18 14:13:06
+# @Runtime: 80 ms
+# @Memory: 14.8 MB
 
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
-        result = []
-        candidates.sort()
-        def backtrace(path, start):
+        ans = []
+
+        def backtrack(path, start):
             s = sum(path)
             if s == target:
-                result.append(list(path))
-                return
-            if s > target:
+                ans.append(list(path))
+            if s >= target:
                 return
 
             for i in range(start, len(candidates)):
-                # if i > start and candidates[i-1] == candidates[i]:
-                #     continue
                 path.append(candidates[i])
-                backtrace(path, i)
+                backtrack(path, i)
                 path.pop()
-        backtrace([], 0)
-        return result
+
+        backtrack([], 0)
+        return ans
+
 

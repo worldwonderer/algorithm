@@ -1,9 +1,9 @@
 
 # @Title: 路径总和 (Path Sum)
 # @Author: 18015528893
-# @Date: 2021-02-07 22:21:28
+# @Date: 2021-02-14 17:26:10
 # @Runtime: 44 ms
-# @Memory: 16.7 MB
+# @Memory: 16.6 MB
 
 # Definition for a binary tree node.
 # class TreeNode:
@@ -13,20 +13,9 @@
 #         self.right = right
 class Solution:
     def hasPathSum(self, root: TreeNode, targetSum: int) -> bool:
-        res = []
-
-        def dfs(root, path, k):
-            if root is None:
-                return
-            path.append(root.val)
-            k -= root.val
-            if k == 0 and root.left is None and root.right is None:
-                res.append(list(path))
-            dfs(root.left, path, k)
-            dfs(root.right, path, k)
-            path.pop()
-
-        dfs(root, [], targetSum)
-        return len(res) != 0
-
+        if root is None:
+            return False
+        if root.left is None and root.right is None:
+            return root.val == targetSum
+        return self.hasPathSum(root.left, targetSum-root.val) or self.hasPathSum(root.right, targetSum-root.val)
 

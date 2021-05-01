@@ -76,7 +76,6 @@ M             1000</pre>
 	<li>It is <strong>guaranteed</strong>&nbsp;that <code>s</code> is a valid roman numeral in the range <code>[1, 3999]</code>.</li>
 </ul>
 
-
 ## Related Topics
 
 - [Math](https://leetcode-cn.com/tag/math)

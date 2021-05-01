@@ -5,19 +5,18 @@
 # @Runtime: 48 ms
 # @Memory: 13.5 MB
 
-from typing import List
-
-
 class Solution:
     def minArray(self, numbers: List[int]) -> int:
-        i, j = 0, len(numbers) - 1
-        while i < j:
-            m = (i + j) // 2
-            if numbers[m] < numbers[j]:
-                j = m
-            elif numbers[m] > numbers[j]:
-                i = m + 1
+        l = 0
+        r = len(numbers) - 1
+        while l < r:
+            mid = l + (r - l + 1) // 2
+            if numbers[mid] >= numbers[0]:
+                l = mid
             else:
-                j -= 1
-        return numbers[i]
+                r = mid - 1
+        if l + 1 == len(numbers):
+            return numbers[0]
+        else:
+            return numbers[l+1]
 
